@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "FeltEmbeddedCareKit",
+    name: "FeltEmbeddedCare",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "FeltEmbeddedCareKit",
-            targets: ["FeltEmbeddedCareKit", "FeltDependencies"]
+            name: "FeltEmbeddedCare",
+            targets: ["FeltEmbeddedCare", "FeltDependencies"]
         ),
     ],
     dependencies: [
@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/ionic-team/ionic-live-updates-releases", from: "0.5.5"),
     ],
     targets: [
-        .binaryTarget(name: "FeltEmbeddedCareKit", path: "Binaries/FeltEmbeddedCareKit.xcframework.zip"),
+        .binaryTarget(name: "FeltEmbeddedCare", path: "Binaries/FeltEmbeddedCare.xcframework.zip"),
         .target(name: "FeltDependencies", dependencies: [
             .product(name: "Capacitor", package: "capacitor-swift-pm"),
             .product(name: "Cordova", package: "capacitor-swift-pm"),

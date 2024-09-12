@@ -1,24 +1,25 @@
 {
-  "originHash" : "3829dd57efb6e88fd899d87ee36ce6cd8a8ae5f1a9592c25efb807411496cd56",
-  "pins" : [
-    {
-      "identity" : "capacitor-swift-pm",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ionic-team/capacitor-swift-pm",
-      "state" : {
-        "revision" : "272e5dcd26260c6f3798b024c9cb3ffa52850ec7",
-        "version" : "6.1.2"
+  "object": {
+    "pins": [
+      {
+        "package": "capacitor-swift-pm",
+        "repositoryURL": "https://github.com/ionic-team/capacitor-swift-pm",
+        "state": {
+          "branch": null,
+          "revision": "272e5dcd26260c6f3798b024c9cb3ffa52850ec7",
+          "version": "6.1.2"
+        }
+      },
+      {
+        "package": "IonicLiveUpdates",
+        "repositoryURL": "https://github.com/ionic-team/ionic-live-updates-releases",
+        "state": {
+          "branch": null,
+          "revision": "4af4625f8e3ff3ec69fec777c7e75602794e7d50",
+          "version": "0.5.5"
+        }
       }
-    },
-    {
-      "identity" : "ionic-live-updates-releases",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ionic-team/ionic-live-updates-releases",
-      "state" : {
-        "revision" : "4af4625f8e3ff3ec69fec777c7e75602794e7d50",
-        "version" : "0.5.5"
-      }
-    }
-  ],
-  "version" : 3
+    ]
+  },
+  "version": 1
 }
