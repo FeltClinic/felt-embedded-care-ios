@@ -104,3 +104,17 @@ if EmbeddedCare.shared.checkFeatureGate(.globalRollout) {
 
 ## Compatiblity
 The SDK has minimum version requirements of Swift 5.5 and iOS 15.
+
+
+## Support
+
+### Slack
+We should have a Slack Connect setup you should be able to find us individually below or at `#<company name>-felt`
+
+Reach out to sid (at) feltclinic.com or josh (at) feltclinic.com if you are not finding us on Slack.
+
+
+### Email
+
+* sid@feltclinic.com
+* daniel@feltclinic.com
