@@ -116,5 +116,5 @@ Reach out to sid (at) feltclinic.com or josh (at) feltclinic.com if you are not 
 
 ### Email
 
-* sid@feltclinic.com
-* daniel@feltclinic.com
+* sid (at) feltclinic.com
+* daniel (at) feltclinic.com
