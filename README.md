@@ -65,7 +65,7 @@ See the `ComponentExperience` `enum` for available options.
 
 ### UIKit
 ```swift
-let componentView = ComponentView(experience: .dismissableCallToAction)
+let componentView = ComponentView(experience: .dismissableCallToAction, metadata: [:])
 self.view.addSubview(componentView)
 ...
 ```
@@ -74,7 +74,7 @@ self.view.addSubview(componentView)
 ```swift
 struct MyView: View {
     var body: some View {
-        Component(experience: .dismissableCallToAction)
+        Component(experience: .dismissableCallToAction, metadata: [:])
     }
 }
 ```
@@ -90,6 +90,31 @@ Felt provides several full screen experiences you can explicitly present. See th
 EmbeddedCare.shared.presentExperience(.splashScreen)
 ```
 User interaction with components can automatically present full screen experiences.
+
+Alternately, you can explicitly present full screen experiences using `FullScreenViewController` and `FullScreenView`.
+
+### UIKit
+```swift
+let viewController = FullScreenViewController(experience: .pricingScreen)
+viewController.modalPresentationStyle = .fullScreen
+self.present(viewController, animated: true, completion: nil)
+...
+```
+
+### SwiftUI
+```swift
+struct MyView: View {
+
+    @State var shouldPresentEmbeddedCare = false
+
+    var body: some View {
+        MyViewContent($shouldPresentEmbeddedCare)
+            .fullScreenCover(isPresented: $shouldPresentEmbeddedCare) {
+                FullScreenView(experience: .splashScreen)
+            }
+    }
+}
+```
 
 ## Feature Gating
 You can check if a feature is enabled for the current user by calling `EmbeddedCare.shared.checkFeatureGate`. See the `FeatureGate` `enum` for available options.
