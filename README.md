@@ -29,8 +29,8 @@ class AppDelegate: UIApplicationDelegate {
 }
 ```
 
-Now you can embed care experiences in a variety of ways, below are a few examples. 
-See [Presenting Care](https://feltclinic.github.io/felt-embedded-care-ios/documentation/feltembeddedcare/documentation#Component-Experiences) for other approaches.
+Now you can embed care experiences, below are a few examples. 
+See [Presenting Care](https://feltclinic.github.io/felt-embedded-care-ios/documentation/feltembeddedcare/documentation#Component-Experiences) for a complete list of approaches.
 
 ```swift
 
@@ -48,7 +48,7 @@ Finally, you will need to share context with the SDK to have a complete experien
 * setting user metadata with [`setUserDetails()`](https://feltclinic.github.io/felt-embedded-care-ios/documentation/feltembeddedcare/embeddedcare/setuserdetails(userid:email:metadata:)) 
 * setting component metadata with [`ComponentView(..., metadata: )`](https://feltclinic.github.io/felt-embedded-care-ios/documentation/feltembeddedcare/componentview/init(experience:metadata:))
 
-That's it! By working with Felt, we will populate these views with a customized, white-labeled experience that will delight your users.
+🎉 That's it! By working with Felt, we will populate these views with a customized, white-labeled experience that will delight your users.
 
 ## Documentation
 You can find reference documentation and user guides [here](https://feltclinic.github.io/felt-embedded-care-ios/documentation/feltembeddedcare/documentation).
