@@ -9,15 +9,6 @@
           "revision": "272e5dcd26260c6f3798b024c9cb3ffa52850ec7",
           "version": "6.1.2"
         }
-      },
-      {
-        "package": "IonicLiveUpdates",
-        "repositoryURL": "https://github.com/ionic-team/ionic-live-updates-releases",
-        "state": {
-          "branch": null,
-          "revision": "4af4625f8e3ff3ec69fec777c7e75602794e7d50",
-          "version": "0.5.5"
-        }
       }
     ]
   },

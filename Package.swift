@@ -13,14 +13,12 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm", from: "6.1.2"),
-        .package(url: "https://github.com/ionic-team/ionic-live-updates-releases", from: "0.5.5"),
     ],
     targets: [
         .binaryTarget(name: "FeltEmbeddedCare", path: "Binaries/FeltEmbeddedCare.xcframework.zip"),
         .target(name: "FeltDependencies", dependencies: [
             .product(name: "Capacitor", package: "capacitor-swift-pm"),
             .product(name: "Cordova", package: "capacitor-swift-pm"),
-            .product(name: "IonicLiveUpdates", package: "ionic-live-updates-releases"),
         ])
     ]
 )
