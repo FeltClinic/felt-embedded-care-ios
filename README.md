@@ -37,6 +37,11 @@ See [Presenting Care](https://feltclinic.github.io/felt-embedded-care-ios/docume
 // for a modal care experiences
 EmbeddedCare.shared.presentExperience(.splashScreen)
 
+// alternatively, FullScreenViewController and FullScreenView offers flexibility to present the view
+let viewController = FullScreenViewController(experience: .pricingScreen)
+viewController.modalPresentationStyle = .fullScreen
+self.present(viewController, animated: true, completion: nil)
+
 // for components to be shown in your existing views
 let componentView = ComponentView(experience: .dismissableCallToAction, metadata: [:])
 self.view.addSubview(componentView)
