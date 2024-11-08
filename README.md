@@ -19,10 +19,12 @@ class AppDelegate: UIApplicationDelegate {
 
         // other initialization logic
 
-+        do {
-+            try EmbeddedCare.shared.initalize(sdkKey: /* your Felt SDK Key */)
-+        } catch {
-+            // Error will be thrown for invalid key
++        Task {
++            do {
++                try await EmbeddedCare.shared.initalize(sdkKey: /* your Felt SDK Key */)
++            } catch {
++                // Error will be thrown for invalid key
++            }
 +        }
 
     }
