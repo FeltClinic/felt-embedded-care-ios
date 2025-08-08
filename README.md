@@ -58,7 +58,9 @@ Finally, you will need to share context with the SDK to have a complete experien
 🎉 That's it! By working with Felt, we will populate these views with a customized, white-labeled experience that will delight your users.
 
 ## Documentation
-You can find reference documentation and user guides [here](https://feltclinic.github.io/felt-embedded-care-ios/documentation/feltembeddedcare/documentation).
+You can find reference documentation and user guides [here](https://github.com/FeltClinic/felt-embedded-care-ios-source/blob/main/FeltEmbeddedCare/Documentation.docc/Documentation.md).
+
+
 
 ## Support
 
