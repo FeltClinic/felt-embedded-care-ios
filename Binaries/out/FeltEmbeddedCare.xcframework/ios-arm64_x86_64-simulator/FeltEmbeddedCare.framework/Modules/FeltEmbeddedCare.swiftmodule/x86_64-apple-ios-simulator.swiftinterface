@@ -1,0 +1,681 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FeltEmbeddedCare
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Capacitor
+import Combine
+@_exported import FeltEmbeddedCare
+import Foundation
+import OSLog
+import Swift
+import SwiftUI
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FeatureGate : Swift.String {
+  case globalRollout
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension FeltEmbeddedCare.EmbeddedCare {
+  @_Concurrency.MainActor public func checkFeatureGate(_ featureGate: FeltEmbeddedCare.FeatureGate) -> Swift.Bool
+  @_Concurrency.MainActor public func checkFeatureGate(name: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor public func getExperiment(_ name: Swift.String) -> [Swift.String : Any]
+  @_Concurrency.MainActor public func logEvent(name: Swift.String, value: Swift.String? = nil, metadata: [Swift.String : Swift.String]? = nil)
+}
+public struct BadgeStatus : Swift.Codable, Swift.Equatable, Swift.Sendable {
+  public let count: Swift.Int
+  public let type: Swift.String
+  public let timestamp: Foundation.Date?
+  public init(count: Swift.Int, type: Swift.String = "simple", timestamp: Foundation.Date? = nil)
+  public static func == (a: FeltEmbeddedCare.BadgeStatus, b: FeltEmbeddedCare.BadgeStatus) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension FeltEmbeddedCare.BadgeStatus {
+  public var isVisible: Swift.Bool {
+    get
+  }
+  public func displayText(maxCount: Swift.Int = 99) -> Swift.String?
+  public var priority: FeltEmbeddedCare.BadgePriority {
+    get
+  }
+}
+public enum BadgePriority : Swift.Int, Swift.CaseIterable, Swift.Comparable {
+  case normal
+  case warning
+  case alert
+  case urgent
+  public static func < (lhs: FeltEmbeddedCare.BadgePriority, rhs: FeltEmbeddedCare.BadgePriority) -> Swift.Bool
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [FeltEmbeddedCare.BadgePriority]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [FeltEmbeddedCare.BadgePriority] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_Concurrency.MainActor public class AutomaticTabBadging : ObjectiveC.NSObject {
+  public struct Configuration {
+    public let scanDelaySeconds: Swift.Double
+    public let maxScanAttempts: Swift.Int
+    public let fallbackToFirstTab: Swift.Bool
+    public let debugLogging: Swift.Bool
+    public let skipUIKitDiscovery: Swift.Bool
+    public init(scanDelaySeconds: Swift.Double = 1.0, maxScanAttempts: Swift.Int = 10, fallbackToFirstTab: Swift.Bool = true, debugLogging: Swift.Bool = false, skipUIKitDiscovery: Swift.Bool = false)
+    public static let `default`: FeltEmbeddedCare.AutomaticTabBadging.Configuration
+    public static let swiftUIOnly: FeltEmbeddedCare.AutomaticTabBadging.Configuration
+  }
+  @_Concurrency.MainActor public init(configuration: FeltEmbeddedCare.AutomaticTabBadging.Configuration = .default)
+  @_Concurrency.MainActor public func enable(in appDelegate: any UIKit.UIApplicationDelegate)
+  @_Concurrency.MainActor public func disable()
+  @objc deinit
+}
+extension FeltEmbeddedCare.EmbeddedCare {
+  @_Concurrency.MainActor public func takeOverBadging(in appDelegate: any UIKit.UIApplicationDelegate, configuration: FeltEmbeddedCare.AutomaticTabBadging.Configuration = .default)
+  @_Concurrency.MainActor public func disableAutomaticBadging()
+}
+@available(iOS 15.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func automaticEmbeddedCareBadging() -> some SwiftUICore.View
+  
+}
+@available(iOS 15.0, *)
+extension SwiftUICore.EnvironmentValues {
+  public var embeddedCareBadgeState: FeltEmbeddedCare.EmbeddedCareBadgeState? {
+    get
+    set
+  }
+}
+@available(iOS 15.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func automaticEmbeddedCareBadge() -> some SwiftUICore.View
+  
+}
+@_Concurrency.MainActor public class EmbeddedCareBadgeState : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($count) @_Concurrency.MainActor public var count: Swift.Int {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor public var $count: Combine.Published<Swift.Int>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($type) @_Concurrency.MainActor public var type: Swift.String {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor public var $type: Combine.Published<Swift.String>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($isVisible) @_Concurrency.MainActor public var isVisible: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor public var $isVisible: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($displayText) @_Concurrency.MainActor public var displayText: Swift.String? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor public var $displayText: Combine.Published<Swift.String?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public struct Configuration {
+    public let maxCount: Swift.Int
+    public let showZeroAsBadge: Swift.Bool
+    public let customFormatter: ((Swift.Int, Swift.String) -> Swift.String?)?
+    public init(maxCount: Swift.Int = 99, showZeroAsBadge: Swift.Bool = false, customFormatter: ((Swift.Int, Swift.String) -> Swift.String?)? = nil)
+    public static let `default`: FeltEmbeddedCare.EmbeddedCareBadgeState.Configuration
+  }
+  @_Concurrency.MainActor public init(configuration: FeltEmbeddedCare.EmbeddedCareBadgeState.Configuration = .default)
+  @objc deinit
+  @_Concurrency.MainActor public func cleanup()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func embeddedCareBadge(_ badgeState: FeltEmbeddedCare.EmbeddedCareBadgeState) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func embeddedCareBadge() -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func embeddedCareBadge(configuration: FeltEmbeddedCare.EmbeddedCareBadgeState.Configuration = .default) -> some SwiftUICore.View
+  
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class AutomaticTabBarVisibility : Combine.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_Concurrency.MainActor public class TabBadgeManager : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($badgeText) @_Concurrency.MainActor public var badgeText: Swift.String? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor public var $badgeText: Combine.Published<Swift.String?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($shouldShowBadge) @_Concurrency.MainActor public var shouldShowBadge: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  @_Concurrency.MainActor public var $shouldShowBadge: Combine.Published<Swift.Bool>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public struct Configuration {
+    public let showOnlyCount: Swift.Bool
+    public let maxDisplayCount: Swift.Int
+    public let emptyBadgeValue: Swift.String?
+    public let customFormatter: ((Swift.Int, Swift.String) -> Swift.String)?
+    public init(showOnlyCount: Swift.Bool = false, maxDisplayCount: Swift.Int = 99, emptyBadgeValue: Swift.String? = nil, customFormatter: ((Swift.Int, Swift.String) -> Swift.String)? = nil)
+    public static let `default`: FeltEmbeddedCare.TabBadgeManager.Configuration
+  }
+  @_Concurrency.MainActor public init(configuration: FeltEmbeddedCare.TabBadgeManager.Configuration = .default)
+  @_Concurrency.MainActor public func startAutoSync()
+  @_Concurrency.MainActor public func stopAutoSync()
+  @_Concurrency.MainActor public func syncNow()
+  @_Concurrency.MainActor public func syncWithUITabBar(_ tabBarController: UIKit.UITabBarController, tabIndex: Swift.Int)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct TabBadgeModifier : SwiftUICore.ViewModifier {
+  @_Concurrency.MainActor @preconcurrency public init(badgeManager: FeltEmbeddedCare.TabBadgeManager)
+  @_Concurrency.MainActor @preconcurrency public func body(content: FeltEmbeddedCare.TabBadgeModifier.Content) -> some SwiftUICore.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s16FeltEmbeddedCare16TabBadgeModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tF", 0) __
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func embeddedCareBadge(manager: FeltEmbeddedCare.TabBadgeManager) -> some SwiftUICore.View
+  
+}
+public protocol BadgeNetworkService {
+  func fetchBadgeStatus(baseURL: Foundation.URL, accountId: Swift.String) async throws -> FeltEmbeddedCare.BadgeStatus
+}
+public enum BadgeNetworkServiceFactory {
+  public static func createProduction(with configuration: FeltEmbeddedCare.BadgeNetworkConfiguration = .default) -> any FeltEmbeddedCare.BadgeNetworkService
+}
+public struct BadgeNetworkConfiguration {
+  public static let `default`: FeltEmbeddedCare.BadgeNetworkConfiguration
+}
+public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatable {
+  case invalidURL(Swift.String)
+  case invalidRequest(Swift.String)
+  case invalidResponse
+  case noData
+  case httpError(Swift.Int)
+  case decodingError(Swift.String)
+  case networkUnavailable
+  case timeout
+  case cancelled
+  case unknown(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var recoverySuggestion: Swift.String? {
+    get
+  }
+  public static func == (a: FeltEmbeddedCare.NetworkError, b: FeltEmbeddedCare.NetworkError) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ComponentView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.ComponentExperience, custom: [Swift.String : Swift.String])
+  @_Concurrency.MainActor @preconcurrency public var loadingFillColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var loadingBackgroundColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var onHeightUpdated: ((CoreFoundation.CGFloat?) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onDismiss: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct Component : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.ComponentExperience, custom: [Swift.String : Swift.String], loadingFill: UIKit.UIColor? = nil, loadingBackground: UIKit.UIColor? = nil, onHeightUpdated: ((CoreFoundation.CGFloat?) -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FeltEmbeddedCare.Component.Context) -> FeltEmbeddedCare.ComponentView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FeltEmbeddedCare.ComponentView, context: FeltEmbeddedCare.Component.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = FeltEmbeddedCare.ComponentView
+}
+@_Concurrency.MainActor public class TabBarVisibilityManager : Foundation.ObservableObject {
+  @Combine.Published @_projectedValueProperty($isTabBarVisible) @_Concurrency.MainActor public var isTabBarVisible: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor public var $isTabBarVisible: Combine.Published<Swift.Bool>.Publisher {
+    get
+  }
+  @_Concurrency.MainActor public init()
+  @_Concurrency.MainActor public func setTabBarVisibility(_ visible: Swift.Bool, for context: Swift.String)
+  @_Concurrency.MainActor public func setTabBarVisibility(_ visible: Swift.Bool, for context: Swift.String, priority: FeltEmbeddedCare.TabBarVisibilityPriority)
+  @_Concurrency.MainActor public func removeVisibilityRule(for context: Swift.String)
+  @_Concurrency.MainActor public func removeAllVisibilityRules()
+  @_Concurrency.MainActor public func hideTabBarForFullScreenExperience()
+  @_Concurrency.MainActor public func showTabBarAfterFullScreenExperience()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public enum TabBarVisibilityPriority : Swift.Int, Swift.CaseIterable {
+  case low
+  case normal
+  case high
+  case critical
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [FeltEmbeddedCare.TabBarVisibilityPriority]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [FeltEmbeddedCare.TabBarVisibilityPriority] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct TabBarVisibilityRule {
+}
+extension Foundation.NSNotification.Name {
+  public static let tabBarVisibilityChanged: Foundation.Notification.Name
+}
+public enum DateDecodingStrategy {
+  public static var webAPICompatible: Foundation.JSONDecoder.DateDecodingStrategy {
+    get
+  }
+}
+public enum DateTransformer {
+  public static func parseWebAPIDate(from dateString: Swift.String) throws -> Foundation.Date
+  public static func toWebAPIDateString(from date: Foundation.Date) -> Swift.String
+}
+public struct Account : Swift.Codable, Swift.Sendable {
+  public var id: Swift.String
+  public var firstName: Swift.String?
+  public var lastName: Swift.String?
+  public var email: Swift.String?
+  public var birthDate: Foundation.Date?
+  public var selectedPatient: FeltEmbeddedCare.Patient?
+  public var coveredPersons: [FeltEmbeddedCare.Patient]?
+  public var custom: [Swift.String : Swift.String]?
+  public init(id: Swift.String, firstName: Swift.String? = nil, lastName: Swift.String? = nil, email: Swift.String? = nil, birthDate: Foundation.Date? = nil, selectedPatient: FeltEmbeddedCare.Patient? = nil, coveredPersons: [FeltEmbeddedCare.Patient]? = nil, custom: [Swift.String : Swift.String]? = [:])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FullScreenViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var experience: FeltEmbeddedCare.FullScreenExperience {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.FullScreenExperience, includeDismissButton: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct FullScreenView : SwiftUI.UIViewControllerRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.FullScreenExperience)
+  @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: FeltEmbeddedCare.FullScreenView.Context) -> FeltEmbeddedCare.FullScreenViewController
+  @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: FeltEmbeddedCare.FullScreenViewController, context: FeltEmbeddedCare.FullScreenView.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewControllerType = FeltEmbeddedCare.FullScreenViewController
+}
+@_Concurrency.MainActor public class PushNotificationPermissionManager : Foundation.ObservableObject {
+  public enum PermissionState {
+    case notDetermined
+    case denied
+    case authorized
+    case provisional
+    public static func == (a: FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState, b: FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum RequestTiming {
+    case onAppLaunch
+    case beforeCriticalAction
+    case userInitiated
+    public static func == (a: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming, b: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @Combine.Published @_projectedValueProperty($currentState) @_Concurrency.MainActor public var currentState: FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState {
+    get
+  }
+  @_Concurrency.MainActor public var $currentState: Combine.Published<FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState>.Publisher {
+    get
+  }
+  @Combine.Published @_projectedValueProperty($isCheckingPermissions) @_Concurrency.MainActor public var isCheckingPermissions: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor public var $isCheckingPermissions: Combine.Published<Swift.Bool>.Publisher {
+    get
+  }
+  @_Concurrency.MainActor public init()
+  @objc deinit
+  @_Concurrency.MainActor public func refreshPermissionState() async
+  @_Concurrency.MainActor public func forceRefreshPermissionState() async
+  @_Concurrency.MainActor public func requestPermissions(timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .userInitiated, options: UserNotifications.UNAuthorizationOptions = [.alert, .badge, .sound]) async -> FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState
+  @_Concurrency.MainActor public func shouldRequestPermissions(for timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming) -> Swift.Bool
+  @_Concurrency.MainActor public func openNotificationSettings()
+  @_Concurrency.MainActor public func addStateChangeHandler(_ handler: @escaping (FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState) -> Swift.Void) -> Foundation.UUID
+  @_Concurrency.MainActor public func removeStateChangeHandler(_ token: Foundation.UUID)
+  @_Concurrency.MainActor public func getMessage(for timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming) -> Swift.String
+  @_Concurrency.MainActor public func getActionTitle() -> Swift.String?
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+@available(iOS 13.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func pushNotificationPermissions(using permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .onAppLaunch, showOnLaunch: Swift.Bool = false, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func pushNotificationPermissionSheet(isPresented: SwiftUICore.Binding<Swift.Bool>, permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .userInitiated, onDismiss: (() -> Swift.Void)? = nil, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil) -> some SwiftUICore.View
+  
+}
+
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class PushNotificationPermissionViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor public init(permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .userInitiated, onDismiss: (() -> Swift.Void)? = nil, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil)
+  @objc deinit
+  @_Concurrency.MainActor @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+}
+@available(iOS 13.0, *)
+@_Concurrency.MainActor @preconcurrency public struct PushNotificationPermissionView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .userInitiated, showDismissButton: Swift.Bool = true, onDismiss: (() -> Swift.Void)? = nil, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s16FeltEmbeddedCare30PushNotificationPermissionViewV4bodyQrvp", 0) __
+}
+
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class BadgeManager {
+  @objc deinit
+}
+extension FeltEmbeddedCare.BadgeManager {
+  @_Concurrency.MainActor public var isBadgeVisible: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor public var badgeCount: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor public var badgeType: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor public func show(count: Swift.Int, type: Swift.String = "simple")
+  @_Concurrency.MainActor public func add(_ increment: Swift.Int)
+  @_Concurrency.MainActor public func clear()
+  @_Concurrency.MainActor public func showUrgent(count: Swift.Int)
+  @_Concurrency.MainActor public func showAlert(count: Swift.Int)
+  @_Concurrency.MainActor public func simulateBadgeEvent(count: Swift.Int, type: Swift.String = "simple")
+}
+extension UIKit.UITabBarItem {
+  @_Concurrency.MainActor @preconcurrency public func setBadgeFromEmbeddedCare()
+}
+@_Concurrency.MainActor public protocol BadgeStatusSource : AnyObject {
+  @_Concurrency.MainActor var statusUpdates: Combine.AnyPublisher<FeltEmbeddedCare.BadgeStatus, any Swift.Error> { get }
+  @_Concurrency.MainActor func start() async
+  @_Concurrency.MainActor func stop()
+}
+public struct BadgePollingConfiguration {
+  public let pollingInterval: Foundation.TimeInterval
+  public let maxRetryAttempts: Swift.Int
+  public let retryDelayMultiplier: Swift.Double
+  public let initialRetryDelay: Foundation.TimeInterval
+  public let isEnabled: Swift.Bool
+  public static let `default`: FeltEmbeddedCare.BadgePollingConfiguration
+  public init(pollingInterval: Foundation.TimeInterval = 30.0, maxRetryAttempts: Swift.Int = 3, retryDelayMultiplier: Swift.Double = 2.0, initialRetryDelay: Foundation.TimeInterval = 1.0, isEnabled: Swift.Bool = true)
+}
+@_Concurrency.MainActor final public class BadgePollingService : FeltEmbeddedCare.BadgeStatusSource {
+  @_Concurrency.MainActor final public var statusUpdates: Combine.AnyPublisher<FeltEmbeddedCare.BadgeStatus, any Swift.Error> {
+    get
+  }
+  @_Concurrency.MainActor public init(embeddedCare: FeltEmbeddedCare.EmbeddedCare, badgeNetworkService: any FeltEmbeddedCare.BadgeNetworkService = BadgeNetworkServiceFactory.createProduction(), configuration: FeltEmbeddedCare.BadgePollingConfiguration = .default)
+  @objc deinit
+  @_Concurrency.MainActor final public func start() async
+  @_Concurrency.MainActor final public func stop()
+}
+public enum BadgePollingError : Swift.Error, Foundation.LocalizedError {
+  case configurationMissing
+  case networkError(FeltEmbeddedCare.NetworkError)
+  case pollingDisabled
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var recoverySuggestion: Swift.String? {
+    get
+  }
+}
+final public class TabBarVisibilityAPI {
+  public init(embeddedCare: FeltEmbeddedCare.EmbeddedCare)
+  @objc deinit
+}
+extension FeltEmbeddedCare.TabBarVisibilityAPI {
+  final public func dynamicTabBarVisibilityModifier() -> some SwiftUICore.ViewModifier
+  
+  final public func tabBarVisibilityCallbacks(_ visible: Swift.Bool, context: Swift.String) -> (onAppear: () -> Swift.Void, onDisappear: () -> Swift.Void)
+  final public func tabBarVisibilityCallbacks(_ visible: Swift.Bool, context: Swift.String, priority: FeltEmbeddedCare.TabBarVisibilityPriority) -> (onAppear: () -> Swift.Void, onDisappear: () -> Swift.Void)
+  final public func enableDynamicTabBarVisibility(for tabBarController: UIKit.UITabBarController)
+  final public func setTabBarVisibility(_ visible: Swift.Bool, context: Swift.String)
+  final public func setTabBarVisibility(_ visible: Swift.Bool, context: Swift.String, priority: FeltEmbeddedCare.TabBarVisibilityPriority)
+  @_Concurrency.MainActor final public func enableAutomaticTabBarVisibility(in appDelegate: any UIKit.UIApplicationDelegate)
+  @_Concurrency.MainActor final public func disableAutomaticTabBarVisibility()
+  @_Concurrency.MainActor final public func discoverTabBarController() -> UIKit.UITabBarController?
+  @_Concurrency.MainActor final public func discoverTabBarController(from viewController: UIKit.UIViewController) -> UIKit.UITabBarController?
+}
+
+
+public struct Patient : Swift.Codable, Swift.Sendable {
+  public enum Gender : Swift.String, Swift.Codable, Swift.Sendable {
+    case male, female, other, unknown
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum GenderIdentity : Swift.String, Swift.Codable, Swift.Sendable {
+    case male, female, transgender, nonBinary, other, unknown
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum RelationshipToAccountHolder : Swift.String, Swift.Codable, Swift.Sendable {
+    case `self`
+    case familyMember
+    case other
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public var id: Swift.String
+  public var relationshipToAccountHolder: FeltEmbeddedCare.Patient.RelationshipToAccountHolder
+  public var firstName: Swift.String?
+  public var lastName: Swift.String?
+  public var gender: FeltEmbeddedCare.Patient.Gender?
+  public var genderIdentity: FeltEmbeddedCare.Patient.GenderIdentity?
+  public var phone: Swift.String?
+  public var email: Swift.String?
+  public var birthDate: Foundation.Date?
+  public var preferredLanguage: Swift.String?
+  public var custom: [Swift.String : Swift.String]?
+  public init(id: Swift.String, relationshipToAccountHolder: FeltEmbeddedCare.Patient.RelationshipToAccountHolder = .self, firstName: Swift.String? = nil, lastName: Swift.String? = nil, gender: FeltEmbeddedCare.Patient.Gender? = nil, genderIdentity: FeltEmbeddedCare.Patient.GenderIdentity? = nil, phone: Swift.String? = nil, email: Swift.String? = nil, birthDate: Foundation.Date? = nil, preferredLanguage: Swift.String? = nil, custom: [Swift.String : Swift.String]? = [:])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ComponentExperience : Swift.String {
+  case triagedCallToAction
+  case dismissableCallToAction
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct FullScreenExperience : Swift.Equatable {
+  public static let homeScreen: FeltEmbeddedCare.FullScreenExperience
+  public static let valuePropositionScreen: FeltEmbeddedCare.FullScreenExperience
+  public static let pricingScreen: FeltEmbeddedCare.FullScreenExperience
+  public static func == (a: FeltEmbeddedCare.FullScreenExperience, b: FeltEmbeddedCare.FullScreenExperience) -> Swift.Bool
+}
+public struct FullScreenPresentationContext {
+  public var experience: FeltEmbeddedCare.FullScreenExperience
+  public enum PresentationMethod : Swift.String {
+    case modal
+    case overlay
+    case home
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public var suggestedPresentationMethod: FeltEmbeddedCare.FullScreenPresentationContext.PresentationMethod
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class EmbeddedCare : ObjectiveC.NSObject {
+  public enum Error : Swift.Error, Foundation.LocalizedError {
+    case invalidSDKKey
+    case badRequest
+    case accountNotSet
+    public var errorDescription: Swift.String? {
+      get
+    }
+    public static func == (a: FeltEmbeddedCare.EmbeddedCare.Error, b: FeltEmbeddedCare.EmbeddedCare.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor public static let shared: FeltEmbeddedCare.EmbeddedCare
+  @_Concurrency.MainActor final public let tabBarManager: FeltEmbeddedCare.TabBarVisibilityManager
+  @_Concurrency.MainActor public var tabBarVisibilityAPI: FeltEmbeddedCare.TabBarVisibilityAPI {
+    get
+    set
+  }
+  @_Concurrency.MainActor final public let pushNotificationManager: FeltEmbeddedCare.PushNotificationPermissionManager
+  @_Concurrency.MainActor public func initialize(sdkKey: Swift.String, completion: (() -> Swift.Void)? = nil) throws
+  @_Concurrency.MainActor public func initialize(sdkKey: Swift.String) async throws
+  @_Concurrency.MainActor public var isInitialized: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor public func isAccountActive(accountId: Swift.String? = nil) async throws -> Swift.Bool
+  @_Concurrency.MainActor public var account: FeltEmbeddedCare.Account? {
+    get
+    set
+  }
+  @_Concurrency.MainActor public var fullScreenExperiencePresentationHandler: ((FeltEmbeddedCare.FullScreenPresentationContext) -> Swift.Void)?
+  @_Concurrency.MainActor public var deeplinkBlockedHandler: ((Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor public func configureNotificationHandling(with appDelegate: any UIKit.UIApplicationDelegate)
+  @_Concurrency.MainActor public func presentExperience(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
+  @_Concurrency.MainActor public func presentOverlay(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
+  @_Concurrency.MainActor public func setBadge(count: Swift.Int, type: Swift.String = "simple")
+  @_Concurrency.MainActor public func clearBadge()
+  @_Concurrency.MainActor public func getBadgeState() -> (count: Swift.Int, type: Swift.String, isVisible: Swift.Bool)
+  @_Concurrency.MainActor public func addBadgeStateChangeHandler(_ handler: @escaping (Swift.Bool) -> Swift.Void) -> Foundation.UUID
+  @_Concurrency.MainActor public func removeBadgeStateChangeHandler(_ token: Foundation.UUID)
+  @_Concurrency.MainActor public func handleBadgeEvent(message: (any Capacitor.JSValue)?)
+  @_Concurrency.MainActor public func startBadgePolling() async
+  @_Concurrency.MainActor public func startBadgePolling(configuration: FeltEmbeddedCare.BadgePollingConfiguration) async
+  @_Concurrency.MainActor public func stopBadgePolling() async
+  @_Concurrency.MainActor public func updateBadgePollingConfiguration(_ configuration: FeltEmbeddedCare.BadgePollingConfiguration) async
+  @_Concurrency.MainActor public var badgePollingConfiguration: FeltEmbeddedCare.BadgePollingConfiguration {
+    get
+  }
+  @_Concurrency.MainActor public var isBadgePolling: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor public func handleTabBarVisibilityEvent(message: (any Capacitor.JSValue)?)
+  @_Concurrency.MainActor public func handleURL(_ url: Foundation.URL) -> Swift.Bool
+  @_Concurrency.MainActor public func handleNotification(_ notification: UserNotifications.UNNotification) -> Swift.Bool
+  @_Concurrency.MainActor public func processStoredDeeplinks()
+  @objc deinit
+}
+extension FeltEmbeddedCare.EmbeddedCare : UserNotifications.UNUserNotificationCenterDelegate {
+  @objc nonisolated dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc nonisolated dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc nonisolated dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, openSettingsFor notification: UserNotifications.UNNotification?)
+}
+extension FeltEmbeddedCare.FeatureGate : Swift.Equatable {}
+extension FeltEmbeddedCare.FeatureGate : Swift.Hashable {}
+extension FeltEmbeddedCare.FeatureGate : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.EmbeddedCare : Swift.Sendable {}
+extension FeltEmbeddedCare.BadgePriority : Swift.Hashable {}
+extension FeltEmbeddedCare.BadgePriority : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.AutomaticTabBadging : Swift.Sendable {}
+extension FeltEmbeddedCare.EmbeddedCareBadgeState : Swift.Sendable {}
+extension FeltEmbeddedCare.AutomaticTabBarVisibility : Swift.Sendable {}
+extension FeltEmbeddedCare.TabBadgeManager : Swift.Sendable {}
+extension FeltEmbeddedCare.TabBadgeModifier : Swift.Sendable {}
+extension FeltEmbeddedCare.Component : Swift.Sendable {}
+extension FeltEmbeddedCare.TabBarVisibilityManager : Swift.Sendable {}
+extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.Equatable {}
+extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.Hashable {}
+extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.FullScreenView : Swift.Sendable {}
+extension FeltEmbeddedCare.PushNotificationPermissionManager : Swift.Sendable {}
+extension FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState : Swift.Equatable {}
+extension FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState : Swift.Hashable {}
+extension FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming : Swift.Equatable {}
+extension FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming : Swift.Hashable {}
+@available(iOS 13.0, *)
+extension FeltEmbeddedCare.PushNotificationPermissionView : Swift.Sendable {}
+extension FeltEmbeddedCare.BadgeManager : Swift.Sendable {}
+extension FeltEmbeddedCare.BadgePollingService : Swift.Sendable {}
+extension FeltEmbeddedCare.Patient.Gender : Swift.Equatable {}
+extension FeltEmbeddedCare.Patient.Gender : Swift.Hashable {}
+extension FeltEmbeddedCare.Patient.Gender : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.Patient.GenderIdentity : Swift.Equatable {}
+extension FeltEmbeddedCare.Patient.GenderIdentity : Swift.Hashable {}
+extension FeltEmbeddedCare.Patient.GenderIdentity : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.Patient.RelationshipToAccountHolder : Swift.Equatable {}
+extension FeltEmbeddedCare.Patient.RelationshipToAccountHolder : Swift.Hashable {}
+extension FeltEmbeddedCare.Patient.RelationshipToAccountHolder : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.ComponentExperience : Swift.Equatable {}
+extension FeltEmbeddedCare.ComponentExperience : Swift.Hashable {}
+extension FeltEmbeddedCare.ComponentExperience : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.FullScreenPresentationContext.PresentationMethod : Swift.Equatable {}
+extension FeltEmbeddedCare.FullScreenPresentationContext.PresentationMethod : Swift.Hashable {}
+extension FeltEmbeddedCare.FullScreenPresentationContext.PresentationMethod : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.EmbeddedCare.Error : Swift.Equatable {}
+extension FeltEmbeddedCare.EmbeddedCare.Error : Swift.Hashable {}
