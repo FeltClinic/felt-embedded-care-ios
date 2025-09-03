@@ -12,7 +12,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/ionic-team/capacitor-swift-pm", from: "6.1.2"),
+        .package(url: "https://github.com/ionic-team/capacitor-swift-pm", from: "6.2.1"),
     ],
     targets: [
         .binaryTarget(name: "FeltEmbeddedCare", path: "Binaries/FeltEmbeddedCare.xcframework.zip"),
