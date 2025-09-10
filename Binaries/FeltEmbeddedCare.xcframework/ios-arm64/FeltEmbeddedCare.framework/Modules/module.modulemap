@@ -1,0 +1,6 @@
+framework module FeltEmbeddedCare {
+  umbrella header "FeltEmbeddedCare.h"
+  export *
+
+  module * { export * }
+}

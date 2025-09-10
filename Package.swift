@@ -14,7 +14,12 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "FeltEmbeddedCare", path: "Binaries/FeltEmbeddedCare.xcframework.zip"),
-        .target(name: "FeltDependencies")
+        .binaryTarget(name: "FeltEmbeddedCare", path: "Binaries/FeltEmbeddedCare.xcframework"),
+        .binaryTarget(name: "Capacitor", path: "Binaries/Capacitor.xcframework"),
+        .binaryTarget(name: "Cordova", path: "Binaries/Cordova.xcframework"),
+        .target(name: "FeltDependencies", dependencies: [
+            "Capacitor",
+            "Cordova"
+        ])
     ]
 )
