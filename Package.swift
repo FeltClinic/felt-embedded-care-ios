@@ -12,13 +12,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/ionic-team/capacitor-swift-pm", from: "6.2.1"),
     ],
     targets: [
         .binaryTarget(name: "FeltEmbeddedCare", path: "Binaries/FeltEmbeddedCare.xcframework.zip"),
-        .target(name: "FeltDependencies", dependencies: [
-            .product(name: "Capacitor", package: "capacitor-swift-pm"),
-            .product(name: "Cordova", package: "capacitor-swift-pm"),
-        ])
+        .target(name: "FeltDependencies")
     ]
 )
