@@ -497,6 +497,10 @@ extension FeltEmbeddedCare.TabBarVisibilityAPI {
   final public func setTabBarVisibility(_ visible: Swift.Bool, context: Swift.String, priority: FeltEmbeddedCare.TabBarVisibilityPriority)
   @_Concurrency.MainActor final public func enableAutomaticTabBarVisibility(in appDelegate: any UIKit.UIApplicationDelegate)
   @_Concurrency.MainActor final public func disableAutomaticTabBarVisibility()
+  @_Concurrency.MainActor final public func removeVisibilityRule(for context: Swift.String)
+  @_Concurrency.MainActor final public var isTabBarVisible: Swift.Bool {
+    get
+  }
   @_Concurrency.MainActor final public func discoverTabBarController() -> UIKit.UITabBarController?
   @_Concurrency.MainActor final public func discoverTabBarController(from viewController: UIKit.UIViewController) -> UIKit.UITabBarController?
 }
@@ -588,6 +592,12 @@ public struct FullScreenPresentationContext {
     }
   }
   @_Concurrency.MainActor public static let shared: FeltEmbeddedCare.EmbeddedCare
+  @_Concurrency.MainActor final public let tabBarManager: FeltEmbeddedCare.TabBarVisibilityManager
+  @_Concurrency.MainActor public var tabBarVisibilityAPI: FeltEmbeddedCare.TabBarVisibilityAPI {
+    get
+    set
+  }
+  @_Concurrency.MainActor final public let pushNotificationManager: FeltEmbeddedCare.PushNotificationPermissionManager
   @_Concurrency.MainActor public func initialize(sdkKey: Swift.String, completion: (() -> Swift.Void)? = nil) throws
   @_Concurrency.MainActor public func initialize(sdkKey: Swift.String) async throws
   @_Concurrency.MainActor public var isInitialized: Swift.Bool {
