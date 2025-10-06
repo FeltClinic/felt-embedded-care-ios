@@ -13,13 +13,6 @@
       },
       {
         "kind": "Import",
-        "name": "OSLog",
-        "printedName": "OSLog",
-        "declKind": "Import",
-        "moduleName": "FeltEmbeddedCare"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1133,6 +1126,40 @@
             "usr": "s:SL",
             "mangledName": "$sSL"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -4475,12 +4502,53 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "FeltEmbeddedCare"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "FeltEmbeddedCare"
       },
@@ -7272,6 +7340,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -8649,6 +8731,20 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
       },
       {
         "kind": "Import",
@@ -13000,6 +13096,40 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -16532,16 +16662,6 @@
       },
       {
         "kind": "Import",
-        "name": "Sentry",
-        "printedName": "Sentry",
-        "declKind": "Import",
-        "moduleName": "FeltEmbeddedCare",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "StatsigOnDeviceEvaluations",
         "printedName": "StatsigOnDeviceEvaluations",
         "declKind": "Import",
@@ -19802,20 +19922,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities.swift",
-      "kind": "StringLiteral",
-      "offset": 104,
-      "length": 36,
-      "value": "\"com.feltclinic.FeltEmbeddedCareKit\""
-    },
-    {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities.swift",
-      "kind": "StringLiteral",
-      "offset": 152,
-      "length": 18,
-      "value": "\"FeltEmbeddedCare\""
-    },
-    {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 272,
@@ -19825,14 +19931,14 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
-      "offset": 3710,
+      "offset": 3639,
       "length": 15,
       "value": "\"app_lifecycle\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
-      "offset": 3763,
+      "offset": 3692,
       "length": 12,
       "value": "\"impression\""
     },
@@ -20075,6 +20181,13 @@
       "value": "\"https:\/\/example.com\""
     },
     {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 97,
+      "value": "\"https:\/\/5122eab82c0b653cada7e9716b0dc19b@o4509452247171072.ingest.us.sentry.io\/4509471881691136\""
+    },
+    {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
       "kind": "Array",
       "offset": 668,
@@ -20091,49 +20204,49 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "Dictionary",
-      "offset": 314,
+      "offset": 328,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "FloatLiteral",
-      "offset": 386,
+      "offset": 400,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1528,
+      "offset": 3172,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1550,
+      "offset": 3194,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1572,
+      "offset": 3216,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 3240,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1622,
+      "offset": 3266,
       "length": 7,
       "value": "\"PATCH\""
     },
@@ -20227,6 +20340,13 @@
       "offset": 3195,
       "length": 25,
       "value": "\"TabBarVisibilityChanged\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/ContextUtils.swift",
+      "kind": "Dictionary",
+      "offset": 222,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Account.swift",
@@ -20621,6 +20741,41 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 36,
+      "value": "\"com.feltclinic.FeltEmbeddedCareKit\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 18,
+      "value": "\"FeltEmbeddedCare\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 66,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1978,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2012,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 157,
@@ -20708,8 +20863,8 @@
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Routes.swift",
       "kind": "Array",
       "offset": 311,
-      "length": 68,
-      "value": "[\"\/home\", \"\/value-props\", \"\/pricing\"]"
+      "length": 92,
+      "value": "[\"\/home\", \"\/chat-return\", \"\/value-props\", \"\/pricing\"]"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
@@ -20749,93 +20904,79 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "BooleanLiteral",
-      "offset": 2210,
+      "offset": 2321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "Dictionary",
-      "offset": 2583,
+      "offset": 2823,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
+      "kind": "StringLiteral",
+      "offset": 9914,
+      "length": 30,
+      "value": "\"Failed to initialize Account\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "Dictionary",
-      "offset": 9777,
+      "offset": 10431,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 12466,
+      "offset": 13513,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 12958,
+      "offset": 14005,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 18660,
+      "offset": 19543,
       "length": 8,
       "value": "\"simple\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "Dictionary",
-      "offset": 23684,
+      "offset": 24567,
       "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
-      "kind": "Array",
-      "offset": 29519,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
-      "kind": "Dictionary",
-      "offset": 29575,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
-      "kind": "Array",
-      "offset": 29745,
-      "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 32716,
+      "offset": 30455,
+      "length": 26,
+      "value": "\"EmbeddedCare.DeviceToken\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
+      "kind": "StringLiteral",
+      "offset": 33411,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 32768,
+      "offset": 33463,
       "length": 13,
       "value": "\"felt-method\""
-    },
-    {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
-      "kind": "StringLiteral",
-      "offset": 32807,
-      "length": 97,
-      "value": "\"https:\/\/5122eab82c0b653cada7e9716b0dc19b@o4509452247171072.ingest.us.sentry.io\/4509471881691136\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
