@@ -20743,35 +20743,35 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 283,
+      "offset": 261,
       "length": 36,
       "value": "\"com.feltclinic.FeltEmbeddedCareKit\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 331,
+      "offset": 309,
       "length": 18,
       "value": "\"FeltEmbeddedCare\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1947,
+      "offset": 1815,
       "length": 66,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1978,
+      "offset": 1846,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2012,
+      "offset": 1880,
       "length": 1,
       "value": "\"\""
     },
@@ -20925,56 +20925,56 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "Dictionary",
-      "offset": 10431,
+      "offset": 10243,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 13513,
+      "offset": 13780,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 14005,
+      "offset": 14272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 19543,
+      "offset": 19810,
       "length": 8,
       "value": "\"simple\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "Dictionary",
-      "offset": 24567,
+      "offset": 24834,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 30455,
+      "offset": 30722,
       "length": 26,
       "value": "\"EmbeddedCare.DeviceToken\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 33411,
+      "offset": 33678,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 33463,
+      "offset": 33730,
       "length": 13,
       "value": "\"felt-method\""
     },
