@@ -18,6 +18,8 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public enum FeatureGate : Swift.String {
   case globalRollout
+  case screenRecordingProtection
+  case badging
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -64,42 +66,9 @@ public enum BadgePriority : Swift.Int, Swift.CaseIterable, Swift.Comparable {
     get
   }
 }
-@objc @_Concurrency.MainActor public class AutomaticTabBadging : ObjectiveC.NSObject {
-  public struct Configuration {
-    public let scanDelaySeconds: Swift.Double
-    public let maxScanAttempts: Swift.Int
-    public let fallbackToFirstTab: Swift.Bool
-    public let debugLogging: Swift.Bool
-    public let skipUIKitDiscovery: Swift.Bool
-    public init(scanDelaySeconds: Swift.Double = 1.0, maxScanAttempts: Swift.Int = 10, fallbackToFirstTab: Swift.Bool = true, debugLogging: Swift.Bool = false, skipUIKitDiscovery: Swift.Bool = false)
-    public static let `default`: FeltEmbeddedCare.AutomaticTabBadging.Configuration
-    public static let swiftUIOnly: FeltEmbeddedCare.AutomaticTabBadging.Configuration
-  }
-  @_Concurrency.MainActor public init(configuration: FeltEmbeddedCare.AutomaticTabBadging.Configuration = .default)
-  @_Concurrency.MainActor public func enable(in appDelegate: any UIKit.UIApplicationDelegate)
-  @_Concurrency.MainActor public func disable()
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class AutomaticTabBarVisibility : Combine.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
-}
-extension FeltEmbeddedCare.EmbeddedCare {
-  @_Concurrency.MainActor public func takeOverBadging(in appDelegate: any UIKit.UIApplicationDelegate, configuration: FeltEmbeddedCare.AutomaticTabBadging.Configuration = .default)
-  @_Concurrency.MainActor public func disableAutomaticBadging()
-}
-@available(iOS 15.0, *)
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func automaticEmbeddedCareBadging() -> some SwiftUICore.View
-  
-}
-@available(iOS 15.0, *)
-extension SwiftUICore.EnvironmentValues {
-  public var embeddedCareBadgeState: FeltEmbeddedCare.EmbeddedCareBadgeState? {
-    get
-    set
-  }
-}
-@available(iOS 15.0, *)
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func automaticEmbeddedCareBadge() -> some SwiftUICore.View
-  
 }
 @_Concurrency.MainActor public class EmbeddedCareBadgeState : Combine.ObservableObject {
   @Combine.Published @_projectedValueProperty($count) @_Concurrency.MainActor public var count: Swift.Int {
@@ -170,9 +139,42 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func embeddedCareBadge(configuration: FeltEmbeddedCare.EmbeddedCareBadgeState.Configuration = .default) -> some SwiftUICore.View
   
 }
-@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class AutomaticTabBarVisibility : Combine.ObservableObject {
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+@objc @_Concurrency.MainActor public class AutomaticTabBadging : ObjectiveC.NSObject {
+  public struct Configuration {
+    public let scanDelaySeconds: Swift.Double
+    public let maxScanAttempts: Swift.Int
+    public let fallbackToFirstTab: Swift.Bool
+    public let debugLogging: Swift.Bool
+    public let skipUIKitDiscovery: Swift.Bool
+    public init(scanDelaySeconds: Swift.Double = 1.0, maxScanAttempts: Swift.Int = 10, fallbackToFirstTab: Swift.Bool = true, debugLogging: Swift.Bool = false, skipUIKitDiscovery: Swift.Bool = false)
+    public static let `default`: FeltEmbeddedCare.AutomaticTabBadging.Configuration
+    public static let swiftUIOnly: FeltEmbeddedCare.AutomaticTabBadging.Configuration
+  }
+  @_Concurrency.MainActor public init(configuration: FeltEmbeddedCare.AutomaticTabBadging.Configuration = .default)
+  @_Concurrency.MainActor public func enable(in appDelegate: any UIKit.UIApplicationDelegate)
+  @_Concurrency.MainActor public func disable()
   @objc deinit
+}
+extension FeltEmbeddedCare.EmbeddedCare {
+  @_Concurrency.MainActor public func takeOverBadging(in appDelegate: any UIKit.UIApplicationDelegate, configuration: FeltEmbeddedCare.AutomaticTabBadging.Configuration = .default)
+  @_Concurrency.MainActor public func disableAutomaticBadging()
+}
+@available(iOS 15.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func automaticEmbeddedCareBadging() -> some SwiftUICore.View
+  
+}
+@available(iOS 15.0, *)
+extension SwiftUICore.EnvironmentValues {
+  public var embeddedCareBadgeState: FeltEmbeddedCare.EmbeddedCareBadgeState? {
+    get
+    set
+  }
+}
+@available(iOS 15.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func automaticEmbeddedCareBadge() -> some SwiftUICore.View
+  
 }
 @_Concurrency.MainActor public class TabBadgeManager : Combine.ObservableObject {
   @Combine.Published @_projectedValueProperty($badgeText) @_Concurrency.MainActor public var badgeText: Swift.String? {
@@ -225,6 +227,10 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func embeddedCareBadge(manager: FeltEmbeddedCare.TabBadgeManager) -> some SwiftUICore.View
   
 }
+public struct SubscriptionCompletedEvent {
+  public let timestamp: Foundation.Date
+  public init(timestamp: Foundation.Date = Date())
+}
 public protocol BadgeNetworkService {
   func fetchBadgeStatus(baseURL: Foundation.URL, accountId: Swift.String) async throws -> FeltEmbeddedCare.BadgeStatus
 }
@@ -252,32 +258,6 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatab
     get
   }
   public static func == (a: FeltEmbeddedCare.NetworkError, b: FeltEmbeddedCare.NetworkError) -> Swift.Bool
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ComponentView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.ComponentExperience, custom: [Swift.String : Swift.String])
-  @_Concurrency.MainActor @preconcurrency public var loadingFillColor: UIKit.UIColor? {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var loadingBackgroundColor: UIKit.UIColor? {
-    get
-    set
-  }
-  @_Concurrency.MainActor @preconcurrency public var onHeightUpdated: ((CoreFoundation.CGFloat?) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency public var onDismiss: (() -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
-    @objc get
-  }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
-  @objc deinit
-}
-@_Concurrency.MainActor @preconcurrency public struct Component : SwiftUI.UIViewRepresentable {
-  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.ComponentExperience, custom: [Swift.String : Swift.String], loadingFill: UIKit.UIColor? = nil, loadingBackground: UIKit.UIColor? = nil, onHeightUpdated: ((CoreFoundation.CGFloat?) -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FeltEmbeddedCare.Component.Context) -> FeltEmbeddedCare.ComponentView
-  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FeltEmbeddedCare.ComponentView, context: FeltEmbeddedCare.Component.Context)
-  public typealias Body = Swift.Never
-  public typealias Coordinator = Swift.Void
-  public typealias UIViewType = FeltEmbeddedCare.ComponentView
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TransparentFullScreenViewController : FeltEmbeddedCare.FullScreenViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
@@ -343,6 +323,32 @@ public struct Account : Swift.Codable, Swift.Sendable, Swift.Equatable {
   public static func == (a: FeltEmbeddedCare.Account, b: FeltEmbeddedCare.Account) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ComponentView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.ComponentExperience, custom: [Swift.String : Swift.String])
+  @_Concurrency.MainActor @preconcurrency public var loadingFillColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var loadingBackgroundColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var onHeightUpdated: ((CoreFoundation.CGFloat?) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onDismiss: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct Component : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.ComponentExperience, custom: [Swift.String : Swift.String], loadingFill: UIKit.UIColor? = nil, loadingBackground: UIKit.UIColor? = nil, onHeightUpdated: ((CoreFoundation.CGFloat?) -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FeltEmbeddedCare.Component.Context) -> FeltEmbeddedCare.ComponentView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FeltEmbeddedCare.ComponentView, context: FeltEmbeddedCare.Component.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = FeltEmbeddedCare.ComponentView
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FullScreenViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var experience: FeltEmbeddedCare.FullScreenExperience {
@@ -446,9 +452,6 @@ extension FeltEmbeddedCare.BadgeManager {
   @_Concurrency.MainActor public func showAlert(count: Swift.Int)
   @_Concurrency.MainActor public func simulateBadgeEvent(count: Swift.Int, type: Swift.String = "simple")
 }
-extension UIKit.UITabBarItem {
-  @_Concurrency.MainActor @preconcurrency public func setBadgeFromEmbeddedCare()
-}
 @_Concurrency.MainActor public protocol BadgeStatusSource : AnyObject {
   @_Concurrency.MainActor var statusUpdates: Combine.AnyPublisher<FeltEmbeddedCare.BadgeStatus, any Swift.Error> { get }
   @_Concurrency.MainActor func start() async
@@ -504,6 +507,9 @@ extension FeltEmbeddedCare.TabBarVisibilityAPI {
   @_Concurrency.MainActor final public func discoverTabBarController() -> UIKit.UITabBarController?
   @_Concurrency.MainActor final public func discoverTabBarController(from viewController: UIKit.UIViewController) -> UIKit.UITabBarController?
 }
+extension UIKit.UITabBarItem {
+  @_Concurrency.MainActor @preconcurrency public func setBadgeFromEmbeddedCare()
+}
 
 
 public struct Patient : Swift.Codable, Swift.Sendable, Swift.Equatable {
@@ -552,6 +558,7 @@ public struct Patient : Swift.Codable, Swift.Sendable, Swift.Equatable {
 public enum ComponentExperience : Swift.String {
   case triagedCallToAction
   case dismissableCallToAction
+  case infoCard
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -592,6 +599,10 @@ public struct FullScreenPresentationContext {
   }
   public var suggestedPresentationMethod: FeltEmbeddedCare.FullScreenPresentationContext.PresentationMethod
 }
+public struct TermsAcceptanceEvent {
+  public let timestamp: Foundation.Date
+  public init(timestamp: Foundation.Date)
+}
 @_Concurrency.MainActor @preconcurrency public struct FullScreenView : SwiftUI.UIViewControllerRepresentable {
   @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.FullScreenExperience)
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: FeltEmbeddedCare.FullScreenView.Context) -> FeltEmbeddedCare.FullScreenViewController
@@ -615,6 +626,7 @@ public struct FullScreenPresentationContext {
     }
   }
   @_Concurrency.MainActor public static let shared: FeltEmbeddedCare.EmbeddedCare
+  @_Concurrency.MainActor final public let events: FeltEmbeddedCare.EventsManager
   @_Concurrency.MainActor final public let tabBarManager: FeltEmbeddedCare.TabBarVisibilityManager
   @_Concurrency.MainActor public var tabBarVisibilityAPI: FeltEmbeddedCare.TabBarVisibilityAPI {
     get
@@ -637,26 +649,11 @@ public struct FullScreenPresentationContext {
   @_Concurrency.MainActor public func presentExperience(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
   @_Concurrency.MainActor public func presentOverlay(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
   @_Concurrency.MainActor public func presentTransparentFullScreen(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
-  @_Concurrency.MainActor public func setBadge(count: Swift.Int, type: Swift.String = "simple")
-  @_Concurrency.MainActor public func clearBadge()
-  @_Concurrency.MainActor public func getBadgeState() -> (count: Swift.Int, type: Swift.String, isVisible: Swift.Bool)
-  @_Concurrency.MainActor public func addBadgeStateChangeHandler(_ handler: @escaping (Swift.Bool) -> Swift.Void) -> Foundation.UUID
-  @_Concurrency.MainActor public func removeBadgeStateChangeHandler(_ token: Foundation.UUID)
-  @_Concurrency.MainActor public func handleBadgeEvent(message: (any Capacitor.JSValue)?)
-  @_Concurrency.MainActor public func startBadgePolling() async
-  @_Concurrency.MainActor public func startBadgePolling(configuration: FeltEmbeddedCare.BadgePollingConfiguration) async
-  @_Concurrency.MainActor public func stopBadgePolling() async
-  @_Concurrency.MainActor public func updateBadgePollingConfiguration(_ configuration: FeltEmbeddedCare.BadgePollingConfiguration) async
-  @_Concurrency.MainActor public var badgePollingConfiguration: FeltEmbeddedCare.BadgePollingConfiguration {
-    get
-  }
-  @_Concurrency.MainActor public var isBadgePolling: Swift.Bool {
-    get
-  }
   @_Concurrency.MainActor public func handleTabBarVisibilityEvent(message: (any Capacitor.JSValue)?)
   @_Concurrency.MainActor public func handleURL(_ url: Foundation.URL) -> Swift.Bool
   @_Concurrency.MainActor public func handleNotification(_ notification: UserNotifications.UNNotification) -> Swift.Bool
   @_Concurrency.MainActor public func processStoredDeeplinks()
+  @_Concurrency.MainActor public func configureManualBadging(tabBarController: UIKit.UITabBarController, tabTag: Swift.Int)
   @objc deinit
 }
 extension FeltEmbeddedCare.EmbeddedCare : UserNotifications.UNUserNotificationCenterDelegate {
@@ -664,22 +661,29 @@ extension FeltEmbeddedCare.EmbeddedCare : UserNotifications.UNUserNotificationCe
   @objc nonisolated dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
   @objc nonisolated dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, openSettingsFor notification: UserNotifications.UNNotification?)
 }
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class EventsManager {
+  @_Concurrency.MainActor public func onFeltSubscriptionCompleted(_ handler: @escaping (FeltEmbeddedCare.SubscriptionCompletedEvent) -> Swift.Void)
+  @_Concurrency.MainActor public func clearSubscriptionCompletedHandler()
+  @_Concurrency.MainActor public func onTermsAcceptance(_ handler: @escaping (FeltEmbeddedCare.TermsAcceptanceEvent) -> Swift.Void)
+  @_Concurrency.MainActor public func clearTermsAcceptanceHandler()
+  @objc deinit
+}
 extension FeltEmbeddedCare.FeatureGate : Swift.Equatable {}
 extension FeltEmbeddedCare.FeatureGate : Swift.Hashable {}
 extension FeltEmbeddedCare.FeatureGate : Swift.RawRepresentable {}
 extension FeltEmbeddedCare.EmbeddedCare : Swift.Sendable {}
 extension FeltEmbeddedCare.BadgePriority : Swift.Hashable {}
 extension FeltEmbeddedCare.BadgePriority : Swift.RawRepresentable {}
-extension FeltEmbeddedCare.AutomaticTabBadging : Swift.Sendable {}
-extension FeltEmbeddedCare.EmbeddedCareBadgeState : Swift.Sendable {}
 extension FeltEmbeddedCare.AutomaticTabBarVisibility : Swift.Sendable {}
+extension FeltEmbeddedCare.EmbeddedCareBadgeState : Swift.Sendable {}
+extension FeltEmbeddedCare.AutomaticTabBadging : Swift.Sendable {}
 extension FeltEmbeddedCare.TabBadgeManager : Swift.Sendable {}
 extension FeltEmbeddedCare.TabBadgeModifier : Swift.Sendable {}
-extension FeltEmbeddedCare.Component : Swift.Sendable {}
 extension FeltEmbeddedCare.TabBarVisibilityManager : Swift.Sendable {}
 extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.Equatable {}
 extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.Hashable {}
 extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.RawRepresentable {}
+extension FeltEmbeddedCare.Component : Swift.Sendable {}
 extension FeltEmbeddedCare.PushNotificationPermissionManager : Swift.Sendable {}
 extension FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState : Swift.Equatable {}
 extension FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState : Swift.Hashable {}
@@ -707,3 +711,4 @@ extension FeltEmbeddedCare.FullScreenPresentationContext.PresentationMethod : Sw
 extension FeltEmbeddedCare.FullScreenView : Swift.Sendable {}
 extension FeltEmbeddedCare.EmbeddedCare.Error : Swift.Equatable {}
 extension FeltEmbeddedCare.EmbeddedCare.Error : Swift.Hashable {}
+extension FeltEmbeddedCare.EventsManager : Swift.Sendable {}
