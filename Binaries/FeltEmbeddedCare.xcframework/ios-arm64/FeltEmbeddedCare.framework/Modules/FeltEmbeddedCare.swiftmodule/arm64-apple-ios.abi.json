@@ -5177,6 +5177,115 @@
           },
           {
             "kind": "Var",
+            "name": "webViewContainer",
+            "printedName": "webViewContainer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "FeltEmbeddedCare.WebView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvp",
+            "mangledName": "$s16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "fixedbinaryorder": 5,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FeltEmbeddedCare.WebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebView",
+                        "printedName": "FeltEmbeddedCare.WebView",
+                        "usr": "c:@M@FeltEmbeddedCare@objc(cs)WebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvg",
+                "mangledName": "$s16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FeltEmbeddedCare.WebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebView",
+                        "printedName": "FeltEmbeddedCare.WebView",
+                        "usr": "c:@M@FeltEmbeddedCare@objc(cs)WebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvs",
+                "mangledName": "$s16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvs",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvM",
+                "mangledName": "$s16FeltEmbeddedCare17DelegationHandlerC16webViewContainerAA03WebG0CSgvM",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "retry",
             "printedName": "retry",
             "children": [
@@ -5217,7 +5326,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -5367,6 +5476,50 @@
               "Preconcurrency",
               "Custom",
               "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didCommit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)DelegationHandler(im)webView:didCommitNavigation:",
+            "mangledName": "$s16FeltEmbeddedCare17DelegationHandlerC7webView_9didCommitySo05WKWebG0C_So12WKNavigationCSgtF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "objc_name": "webView:didCommitNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -8550,12 +8703,12 @@
                 "name": "SentryLevel",
                 "printedName": "Sentry.SentryLevel",
                 "hasDefaultArg": true,
-                "usr": "c:@M@Sentry@E@SentryLevel"
+                "usr": "c:@E@SentryLevel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare13SentryManagerO12captureError_5levelys0G0_p_0D00D5LevelOtFZ",
-            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO12captureError_5levelys0G0_p_0D00D5LevelOtFZ",
+            "usr": "s:16FeltEmbeddedCare13SentryManagerO12captureError_5levelys0G0_p_So0D5LevelVtFZ",
+            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO12captureError_5levelys0G0_p_So0D5LevelVtFZ",
             "moduleName": "FeltEmbeddedCare",
             "static": true,
             "declAttributes": [
@@ -8584,12 +8737,12 @@
                 "name": "SentryLevel",
                 "printedName": "Sentry.SentryLevel",
                 "hasDefaultArg": true,
-                "usr": "c:@M@Sentry@E@SentryLevel"
+                "usr": "c:@E@SentryLevel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare13SentryManagerO14captureMessage_5levelySS_0D00D5LevelOtFZ",
-            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO14captureMessage_5levelySS_0D00D5LevelOtFZ",
+            "usr": "s:16FeltEmbeddedCare13SentryManagerO14captureMessage_5levelySS_So0D5LevelVtFZ",
+            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO14captureMessage_5levelySS_So0D5LevelVtFZ",
             "moduleName": "FeltEmbeddedCare",
             "static": true,
             "declAttributes": [
@@ -9811,13 +9964,6 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "FeltEmbeddedCare"
-      },
-      {
-        "kind": "Import",
         "name": "FeltUtilities",
         "printedName": "FeltUtilities",
         "declKind": "Import",
@@ -10254,108 +10400,6 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare14NetworkRequestV22shouldAddContextCookie3forSb10Foundation3URLV_tF",
             "mangledName": "$s16FeltEmbeddedCare14NetworkRequestV22shouldAddContextCookie3forSb10Foundation3URLV_tF",
-            "moduleName": "FeltEmbeddedCare",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "createInitialContextCookie",
-            "printedName": "createInitialContextCookie(context:url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.HTTPCookie?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPCookie",
-                    "printedName": "Foundation.HTTPCookie",
-                    "usr": "c:objc(cs)NSHTTPCookie"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare14NetworkRequestV26createInitialContextCookie7context3urlSo12NSHTTPCookieCSgSDySSypG_10Foundation3URLVtF",
-            "mangledName": "$s16FeltEmbeddedCare14NetworkRequestV26createInitialContextCookie7context3urlSo12NSHTTPCookieCSgSDySSypG_10Foundation3URLVtF",
-            "moduleName": "FeltEmbeddedCare",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "serializeContextToJSON",
-            "printedName": "serializeContextToJSON(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare14NetworkRequestV22serializeContextToJSONySSSgSDySSypGF",
-            "mangledName": "$s16FeltEmbeddedCare14NetworkRequestV22serializeContextToJSONySSSgSDySSypGF",
             "moduleName": "FeltEmbeddedCare",
             "declAttributes": [
               "AccessControl"
@@ -14063,13 +14107,6 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "FeltEmbeddedCare"
-      },
-      {
-        "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
         "declKind": "Import",
@@ -14082,9 +14119,34 @@
         "children": [
           {
             "kind": "Function",
-            "name": "serializeContextToJSON",
-            "printedName": "serializeContextToJSON(_:)",
+            "name": "serializeContextWithFallback",
+            "printedName": "serializeContextWithFallback(_:fallbackName:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
@@ -14097,113 +14159,13 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare12ContextUtilsO09serializeD6ToJSONySSSgSDySSypGFZ",
-            "mangledName": "$s16FeltEmbeddedCare12ContextUtilsO09serializeD6ToJSONySSSgSDySSypGFZ",
-            "moduleName": "FeltEmbeddedCare",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "createInitialContextCookie",
-            "printedName": "createInitialContextCookie(context:url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.HTTPCookie?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPCookie",
-                    "printedName": "Foundation.HTTPCookie",
-                    "usr": "c:objc(cs)NSHTTPCookie"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare12ContextUtilsO013createInitialD6Cookie7context3urlSo12NSHTTPCookieCSgSDySSypG_10Foundation3URLVtFZ",
-            "mangledName": "$s16FeltEmbeddedCare12ContextUtilsO013createInitialD6Cookie7context3urlSo12NSHTTPCookieCSgSDySSypG_10Foundation3URLVtFZ",
-            "moduleName": "FeltEmbeddedCare",
-            "static": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setCookie",
-            "printedName": "setCookie(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "HTTPCookie",
-                "printedName": "Foundation.HTTPCookie",
-                "usr": "c:objc(cs)NSHTTPCookie"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare12ContextUtilsO9setCookieyySo12NSHTTPCookieCYaFZ",
-            "mangledName": "$s16FeltEmbeddedCare12ContextUtilsO9setCookieyySo12NSHTTPCookieCYaFZ",
+            "usr": "s:16FeltEmbeddedCare12ContextUtilsO09serializeD12WithFallback_12fallbackNameSSSDySSypG_SSSgtFZ",
+            "mangledName": "$s16FeltEmbeddedCare12ContextUtilsO09serializeD12WithFallback_12fallbackNameSSSDySSypG_SSSgtFZ",
             "moduleName": "FeltEmbeddedCare",
             "static": true,
             "declAttributes": [
@@ -26965,6 +26927,32 @@
           },
           {
             "kind": "Var",
+            "name": "sentryLogger",
+            "printedName": "sentryLogger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SentryLogger",
+                "printedName": "Sentry.SentryLogger",
+                "usr": "c:@M@Sentry@objc(cs)SentryLogger"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare0A6LoggerV06sentryD033_FF332FD7DC8847ECA6ED331167B47367LL6Sentry0lD0Cvp",
+            "mangledName": "$s16FeltEmbeddedCare0A6LoggerV06sentryD033_FF332FD7DC8847ECA6ED331167B47367LL6Sentry0lD0Cvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "isDebug",
             "printedName": "isDebug",
             "children": [
@@ -26983,7 +26971,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "hasStorage": true,
             "accessors": [
               {
@@ -27254,7 +27242,7 @@
                 "name": "SentryLevel",
                 "printedName": "Sentry.SentryLevel",
                 "hasDefaultArg": true,
-                "usr": "c:@M@Sentry@E@SentryLevel"
+                "usr": "c:@E@SentryLevel"
               },
               {
                 "kind": "TypeNominal",
@@ -27286,8 +27274,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare0A6LoggerV10breadcrumb_8category5level4dataySS_SSSg6Sentry0I5LevelOSDySSypGSgtF",
-            "mangledName": "$s16FeltEmbeddedCare0A6LoggerV10breadcrumb_8category5level4dataySS_SSSg6Sentry0I5LevelOSDySSypGSgtF",
+            "usr": "s:16FeltEmbeddedCare0A6LoggerV10breadcrumb_8category5level4dataySS_SSSgSo11SentryLevelVSDySSypGSgtF",
+            "mangledName": "$s16FeltEmbeddedCare0A6LoggerV10breadcrumb_8category5level4dataySS_SSSgSo11SentryLevelVSDySSypGSgtF",
             "moduleName": "FeltEmbeddedCare",
             "declAttributes": [
               "RawDocComment"
@@ -33666,6 +33654,41 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "currentContextString",
+            "printedName": "currentContextString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare7WebViewC20currentContextString33_AE65A40A02634DE820BC37F8EF99394CLLSSSgvp",
+            "mangledName": "$s16FeltEmbeddedCare7WebViewC20currentContextString33_AE65A40A02634DE820BC37F8EF99394CLLSSSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 8,
+            "hasStorage": true
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(url:serverURL:name:context:cachePolicy:pubsub:preventRecording:)",
@@ -33857,6 +33880,29 @@
           },
           {
             "kind": "Function",
+            "name": "reinjectContext",
+            "printedName": "reinjectContext()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare7WebViewC15reinjectContextyyF",
+            "mangledName": "$s16FeltEmbeddedCare7WebViewC15reinjectContextyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "safeAreaInsetsDidChange",
             "printedName": "safeAreaInsetsDidChange()",
             "children": [
@@ -33878,36 +33924,8 @@
               "ObjC",
               "Preconcurrency",
               "Custom",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearDomainCookies",
-            "printedName": "clearDomainCookies(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare7WebViewC18clearDomainCookies3fory10Foundation3URLV_tFZ",
-            "mangledName": "$s16FeltEmbeddedCare7WebViewC18clearDomainCookies3fory10Foundation3URLV_tFZ",
-            "moduleName": "FeltEmbeddedCare",
-            "static": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final"
+              "Override",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -42863,14 +42881,14 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
-      "offset": 4273,
+      "offset": 4515,
       "length": 15,
       "value": "\"app_lifecycle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
-      "offset": 4326,
+      "offset": 4568,
       "length": 12,
       "value": "\"impression\""
     },
@@ -43171,49 +43189,49 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "Dictionary",
-      "offset": 371,
+      "offset": 357,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "FloatLiteral",
-      "offset": 443,
+      "offset": 429,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3191,
+      "offset": 2725,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3213,
+      "offset": 2747,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3235,
+      "offset": 2769,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 2793,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3285,
+      "offset": 2819,
       "length": 7,
       "value": "\"PATCH\""
     },
@@ -43773,21 +43791,21 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2887,
+      "offset": 3161,
       "length": 66,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2918,
+      "offset": 3192,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2952,
+      "offset": 3226,
       "length": 1,
       "value": "\"\""
     },
@@ -43885,14 +43903,14 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 712,
+      "offset": 756,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3712,
+      "offset": 3797,
       "length": 1,
       "value": "0"
     },
@@ -43990,91 +44008,84 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 13391,
-      "length": 33,
-      "value": "\"Failed to create context cookie\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
-      "kind": "StringLiteral",
-      "offset": 14222,
+      "offset": 13674,
       "length": 26,
       "value": "\"Account setter completed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 14260,
+      "offset": 13712,
       "length": 9,
       "value": "\"account\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 14854,
+      "offset": 14306,
       "length": 13,
       "value": "\"Account set\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 14879,
+      "offset": 14331,
       "length": 9,
       "value": "\"account\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 14897,
+      "offset": 14349,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 15028,
+      "offset": 14480,
       "length": 28,
       "value": "\"Did not initialize Account\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 17158,
+      "offset": 16610,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 17650,
+      "offset": 17102,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 18178,
+      "offset": 17630,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 31289,
+      "offset": 30741,
       "length": 26,
       "value": "\"EmbeddedCare.DeviceToken\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 34619,
+      "offset": 34071,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare Manager\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 34671,
+      "offset": 34123,
       "length": 13,
       "value": "\"felt-method\""
     },
