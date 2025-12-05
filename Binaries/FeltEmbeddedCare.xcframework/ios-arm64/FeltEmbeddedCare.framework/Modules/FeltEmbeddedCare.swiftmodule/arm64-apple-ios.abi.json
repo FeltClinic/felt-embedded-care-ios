@@ -8635,6 +8635,31 @@
           },
           {
             "kind": "Function",
+            "name": "getAppName",
+            "printedName": "getAppName(main:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13SentryManagerO10getAppName4mainSSSo8NSBundleC_tFZ",
+            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO10getAppName4mainSSSo8NSBundleC_tFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setUser",
             "printedName": "setUser(userID:email:)",
             "children": [
@@ -8743,6 +8768,333 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare13SentryManagerO14captureMessage_5levelySS_So0D5LevelVtFZ",
             "mangledName": "$s16FeltEmbeddedCare13SentryManagerO14captureMessage_5levelySS_So0D5LevelVtFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "determineEventOrigin",
+            "printedName": "determineEventOrigin(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "Sentry.Event",
+                "usr": "c:objc(cs)SentryEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13SentryManagerO20determineEventOriginySSSo0dG0CFZ",
+            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO20determineEventOriginySSSo0dG0CFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "FrameInfo",
+            "printedName": "FrameInfo",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "inApp",
+                "printedName": "inApp",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV5inAppSbvp",
+                "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV5inAppSbvp",
+                "moduleName": "FeltEmbeddedCare",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV5inAppSbvg",
+                    "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV5inAppSbvg",
+                    "moduleName": "FeltEmbeddedCare",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "package",
+                "printedName": "package",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV7packageSSSgvp",
+                "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV7packageSSSgvp",
+                "moduleName": "FeltEmbeddedCare",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 1,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV7packageSSSgvg",
+                    "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV7packageSSSgvg",
+                    "moduleName": "FeltEmbeddedCare",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "fileName",
+                "printedName": "fileName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV8fileNameSSSgvp",
+                "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV8fileNameSSSgvp",
+                "moduleName": "FeltEmbeddedCare",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 2,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV8fileNameSSSgvg",
+                    "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV8fileNameSSSgvg",
+                    "moduleName": "FeltEmbeddedCare",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(inApp:package:fileName:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FrameInfo",
+                    "printedName": "FeltEmbeddedCare.SentryManager.FrameInfo",
+                    "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV5inApp7package8fileNameAESb_SSSgAItcfc",
+                "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV5inApp7package8fileNameAESb_SSSgAItcfc",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV",
+            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO9FrameInfoV",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "determineOrigin",
+            "printedName": "determineOrigin(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FeltEmbeddedCare.SentryManager.FrameInfo]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FrameInfo",
+                    "printedName": "FeltEmbeddedCare.SentryManager.FrameInfo",
+                    "usr": "s:16FeltEmbeddedCare13SentryManagerO9FrameInfoV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13SentryManagerO15determineOrigin4fromSSSayAC9FrameInfoVG_tFZ",
+            "mangledName": "$s16FeltEmbeddedCare13SentryManagerO15determineOrigin4fromSSSayAC9FrameInfoVG_tFZ",
             "moduleName": "FeltEmbeddedCare",
             "static": true,
             "declAttributes": [
@@ -43171,6 +43523,13 @@
       "offset": 297,
       "length": 97,
       "value": "\"https:\/\/5122eab82c0b653cada7e9716b0dc19b@o4509452247171072.ingest.us.sentry.io\/4509471881691136\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 9,
+      "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",

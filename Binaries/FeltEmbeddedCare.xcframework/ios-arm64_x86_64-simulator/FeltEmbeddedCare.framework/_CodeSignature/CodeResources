@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+q+En1hij+2aLtJ0jYsTeSie7WU=
+		Jj8W2ZOKWdQM/kaLHjVp/GXAYpo=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ErhqZgZhxfio1tWufMMO//015rA=
+		yJHP18IoFbneTjMTx6wK6q/hGyI=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TAEcBTqF4jEstpId2Vd0MvT9SNQ=
+		inj/vBmpr1dcge5IbaSEyunL6go=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1nADqun0qP6X3zbe9WLAenAOSXI=
+		ip0hlC430FqVW5d6IMyuxCS4UZo=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ErhqZgZhxfio1tWufMMO//015rA=
+		yJHP18IoFbneTjMTx6wK6q/hGyI=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GHYRZ8UHTWfMBT5CqlbfkbVcHqo=
+		b1g9dNHQUuJx7XMUPOIz8wZboXI=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XKTwABDC9Ugx6YV0fb50f0w9PTE=
+		eAUrEPlfaJIah4yR8UgNzcoTaTk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			878UdDHeexOjTUfvkBUuqHACOloLlalQFtCLgOCpy0o=
+			xghg5+JRRBW1RpesD13dxsxsibdwdsit+52mBkfNXVY=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -84,7 +84,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			69lDpee3jz3AmuKVURN/Tsb8NsmwKXLsvGsTDccQq/o=
+			I+YI6KwMIXP/4bQd2P7fJat4LCHcvLZf5+W5moF0HdI=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3ZrVSgice/Pqq+hLp9bBWOQixAnh5FEdXH8M6kj840=
+			jgR3+QfcaHz0oc3YgFxNxK/S5R8QELE/oHmmK7wcf+g=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			878UdDHeexOjTUfvkBUuqHACOloLlalQFtCLgOCpy0o=
+			xghg5+JRRBW1RpesD13dxsxsibdwdsit+52mBkfNXVY=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ZnT1jbbBp0qCXM6G1wcSJbMR+ok4/3KG+ULLIY0FG4=
+			5x5BXiW+6QE+9mOi0wCcbzNujavVvO0cGN8Ylcj0Uss=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgefkGgHgcODOXjzB1n8jAx3mzsxDIpAVV+FqFlucKg=
+			hPOgzWoY8iWcl6aNvx7nj0wdbeFXN2rxmJUS4suf4LE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
