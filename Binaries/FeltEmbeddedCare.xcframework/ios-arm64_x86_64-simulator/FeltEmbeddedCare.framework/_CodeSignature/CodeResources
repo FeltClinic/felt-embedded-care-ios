@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		snzoQemPWTTjsGPGVJQiwJmvi5Y=
+		kXF53eySjGxG9bgr+CvjJrYb8oQ=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yJHP18IoFbneTjMTx6wK6q/hGyI=
+		dqUvQ4ytL19Hq+zSJAw+sT2TKdo=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eKr04c/5KKE3MOjZmS2wBdEXKak=
+		oDdKHsAeaLjWdwcuDcvZgyMc2w8=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		inj/vBmpr1dcge5IbaSEyunL6go=
+		CA71DYgoDfWmQQI1QMGsQ7DRfR8=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eKr04c/5KKE3MOjZmS2wBdEXKak=
+		oDdKHsAeaLjWdwcuDcvZgyMc2w8=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ip0hlC430FqVW5d6IMyuxCS4UZo=
+		lyLQKQCBa0UsDV/fGOMiV7X5DP4=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yJHP18IoFbneTjMTx6wK6q/hGyI=
+		dqUvQ4ytL19Hq+zSJAw+sT2TKdo=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HakpHIHwPWgKo3t5lLHNb7prg34=
+		lngr3Bxe0RCisVv3UJE3wRwEoio=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		b1g9dNHQUuJx7XMUPOIz8wZboXI=
+		1uyradx2f0saK7drFnYi/8iFq9E=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HakpHIHwPWgKo3t5lLHNb7prg34=
+		lngr3Bxe0RCisVv3UJE3wRwEoio=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eAUrEPlfaJIah4yR8UgNzcoTaTk=
+		KVKgoCB8Zd1eMN28820i9IlAqkQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xghg5+JRRBW1RpesD13dxsxsibdwdsit+52mBkfNXVY=
+			QT5OHrGGYM5bd66pA6Wg93b7gPQhrAXU/mYGwriizGU=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYM+lJr1CmCtX6TjqYqxDMBi4iftnWBTHR6NrsSGTbk=
+			eCozFuNUlhwDJ3wfYebqqkOGrbPFirOhbFmmA6BFIiQ=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I+YI6KwMIXP/4bQd2P7fJat4LCHcvLZf5+W5moF0HdI=
+			iuD9oAwMwnh3v8ZAQ5JfSpzX9Z+I1UUXO07MGT++nZE=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYM+lJr1CmCtX6TjqYqxDMBi4iftnWBTHR6NrsSGTbk=
+			eCozFuNUlhwDJ3wfYebqqkOGrbPFirOhbFmmA6BFIiQ=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jgR3+QfcaHz0oc3YgFxNxK/S5R8QELE/oHmmK7wcf+g=
+			ugMJPEIRg/aF/YumqGDlLnj65FHxaqTTpFaFkzpw4DA=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xghg5+JRRBW1RpesD13dxsxsibdwdsit+52mBkfNXVY=
+			QT5OHrGGYM5bd66pA6Wg93b7gPQhrAXU/mYGwriizGU=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DEmKO8oyunzluRqwPSxCHGE/DDawpmukB8YEU/whxH4=
+			dIzE/e2tVCRfOpqwaRSRD144UhD4S7n4NWiuJojRPsw=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5x5BXiW+6QE+9mOi0wCcbzNujavVvO0cGN8Ylcj0Uss=
+			T1VHbICSzd0pPW583+wGO+5Ysa1zhYjf6hMSrV6HuLg=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DEmKO8oyunzluRqwPSxCHGE/DDawpmukB8YEU/whxH4=
+			dIzE/e2tVCRfOpqwaRSRD144UhD4S7n4NWiuJojRPsw=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hPOgzWoY8iWcl6aNvx7nj0wdbeFXN2rxmJUS4suf4LE=
+			vn6YltLD21vFo6xOhEP1z4MhRRwrKgQjd1D1sfngUqs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
