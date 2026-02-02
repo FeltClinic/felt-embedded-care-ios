@@ -19676,6 +19676,159 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CooldownCalculator",
+        "printedName": "CooldownCalculator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configKey:defaultCooldowns:maxMinutes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CooldownCalculator",
+                "printedName": "FeltEmbeddedCare.CooldownCalculator",
+                "usr": "s:16FeltEmbeddedCare18CooldownCalculatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FeltEmbeddedCare18CooldownCalculatorC9configKey16defaultCooldowns10maxMinutesACSS_SaySiGSitcfc",
+            "mangledName": "$s16FeltEmbeddedCare18CooldownCalculatorC9configKey16defaultCooldowns10maxMinutesACSS_SaySiGSitcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getCooldownMinutes",
+            "printedName": "getCooldownMinutes(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18CooldownCalculatorC03getD7Minutes3forS2i_tF",
+            "mangledName": "$s16FeltEmbeddedCare18CooldownCalculatorC03getD7Minutes3forS2i_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasCooldownElapsed",
+            "printedName": "hasCooldownElapsed(since:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18CooldownCalculatorC03hasD7Elapsed5since3forSb10Foundation4DateV_SitF",
+            "mangledName": "$s16FeltEmbeddedCare18CooldownCalculatorC03hasD7Elapsed5since3forSb10Foundation4DateV_SitF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16FeltEmbeddedCare18CooldownCalculatorC",
+        "mangledName": "$s16FeltEmbeddedCare18CooldownCalculatorC",
+        "moduleName": "FeltEmbeddedCare",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
         "declKind": "Import",
@@ -26879,6 +27032,457 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DismissState",
+        "printedName": "DismissState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dismissCount",
+            "printedName": "dismissCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare12DismissStateV12dismissCountSivp",
+            "mangledName": "$s16FeltEmbeddedCare12DismissStateV12dismissCountSivp",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare12DismissStateV12dismissCountSivg",
+                "mangledName": "$s16FeltEmbeddedCare12DismissStateV12dismissCountSivg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastDismissDate",
+            "printedName": "lastDismissDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare12DismissStateV04lastD4Date10Foundation0G0VSgvp",
+            "mangledName": "$s16FeltEmbeddedCare12DismissStateV04lastD4Date10Foundation0G0VSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare12DismissStateV04lastD4Date10Foundation0G0VSgvg",
+                "mangledName": "$s16FeltEmbeddedCare12DismissStateV04lastD4Date10Foundation0G0VSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dismissCount:lastDismissDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DismissState",
+                "printedName": "FeltEmbeddedCare.DismissState",
+                "usr": "s:16FeltEmbeddedCare12DismissStateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FeltEmbeddedCare12DismissStateV12dismissCount04lastD4DateACSi_10Foundation0I0VSgtcfc",
+            "mangledName": "$s16FeltEmbeddedCare12DismissStateV12dismissCount04lastD4DateACSi_10Foundation0I0VSgtcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "incremented",
+            "printedName": "incremented(max:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DismissState",
+                "printedName": "FeltEmbeddedCare.DismissState",
+                "usr": "s:16FeltEmbeddedCare12DismissStateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare12DismissStateV11incremented3maxACSi_tF",
+            "mangledName": "$s16FeltEmbeddedCare12DismissStateV11incremented3maxACSi_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16FeltEmbeddedCare12DismissStateV",
+        "mangledName": "$s16FeltEmbeddedCare12DismissStateV",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DismissStateManager",
+        "printedName": "DismissStateManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(storage:cooldownCalculator:maxDismissCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DismissStateManager",
+                "printedName": "FeltEmbeddedCare.DismissStateManager",
+                "usr": "s:16FeltEmbeddedCare19DismissStateManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DismissStateStorage",
+                "printedName": "any FeltEmbeddedCare.DismissStateStorage",
+                "usr": "s:16FeltEmbeddedCare19DismissStateStorageP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CooldownCalculator",
+                "printedName": "FeltEmbeddedCare.CooldownCalculator",
+                "hasDefaultArg": true,
+                "usr": "s:16FeltEmbeddedCare18CooldownCalculatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FeltEmbeddedCare19DismissStateManagerC7storage18cooldownCalculator03maxD5CountAcA0dE7Storage_p_AA08CooldownI0CSitcfc",
+            "mangledName": "$s16FeltEmbeddedCare19DismissStateManagerC7storage18cooldownCalculator03maxD5CountAcA0dE7Storage_p_AA08CooldownI0CSitcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handleDismiss",
+            "printedName": "handleDismiss(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DismissState",
+                "printedName": "FeltEmbeddedCare.DismissState",
+                "usr": "s:16FeltEmbeddedCare12DismissStateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare19DismissStateManagerC06handleD03forAA0dE0VSS_tF",
+            "mangledName": "$s16FeltEmbeddedCare19DismissStateManagerC06handleD03forAA0dE0VSS_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldShow",
+            "printedName": "shouldShow(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare19DismissStateManagerC10shouldShow3forSbSS_tF",
+            "mangledName": "$s16FeltEmbeddedCare19DismissStateManagerC10shouldShow3forSbSS_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16FeltEmbeddedCare19DismissStateManagerC",
+        "mangledName": "$s16FeltEmbeddedCare19DismissStateManagerC",
+        "moduleName": "FeltEmbeddedCare",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DismissStateStorage",
+        "printedName": "DismissStateStorage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getDismissState",
+            "printedName": "getDismissState(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DismissState",
+                "printedName": "FeltEmbeddedCare.DismissState",
+                "usr": "s:16FeltEmbeddedCare12DismissStateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare19DismissStateStorageP03getdE03forAA0dE0VSS_tF",
+            "mangledName": "$s16FeltEmbeddedCare19DismissStateStorageP03getdE03forAA0dE0VSS_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.DismissStateStorage>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.DismissStateStorage>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveDismissState",
+            "printedName": "saveDismissState(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DismissState",
+                "printedName": "FeltEmbeddedCare.DismissState",
+                "usr": "s:16FeltEmbeddedCare12DismissStateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare19DismissStateStorageP04savedE0_3foryAA0dE0V_SStF",
+            "mangledName": "$s16FeltEmbeddedCare19DismissStateStorageP04savedE0_3foryAA0dE0V_SStF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.DismissStateStorage>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.DismissStateStorage>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16FeltEmbeddedCare19DismissStateStorageP",
+        "mangledName": "$s16FeltEmbeddedCare19DismissStateStorageP",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -47945,6 +48549,27 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 33,
+      "value": "\"dismissible_cta_cooldown_config\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "kind": "Array",
+      "offset": 355,
+      "length": 19,
+      "value": "[4320, 7200, 43200]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 430,
+      "length": 6,
+      "value": "525600"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4057,
@@ -48258,6 +48883,27 @@
       "offset": 1787,
       "length": 9,
       "value": "\"account\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 426,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissStateManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
