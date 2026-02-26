@@ -70,5 +70,4 @@ Reach out to sid (at) feltclinic.com or josh (at) feltclinic.com if you are not 
 
 ### Email
 
-* sid (at) feltclinic.com
-* daniel (at) feltclinic.com
+* SDKsupport@feltclinic.com (at) feltclinic.com
