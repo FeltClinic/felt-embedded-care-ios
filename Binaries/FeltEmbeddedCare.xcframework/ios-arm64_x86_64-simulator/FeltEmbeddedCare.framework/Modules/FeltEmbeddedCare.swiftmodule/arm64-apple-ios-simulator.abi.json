@@ -21045,6 +21045,35 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleTabBarVisibility",
+            "printedName": "handleTabBarVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityEvent",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityEvent",
+                "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13ComponentViewC22handleTabBarVisibilityyyAA0ghI5EventVF",
+            "mangledName": "$s16FeltEmbeddedCare13ComponentViewC22handleTabBarVisibilityyyAA0ghI5EventVF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -23040,6 +23069,64 @@
               "Custom",
               "Override",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "backgroundColorForRoute",
+            "printedName": "backgroundColorForRoute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare24FullScreenViewControllerC23backgroundColorForRouteySo7UIColorCSSF",
+            "mangledName": "$s16FeltEmbeddedCare24FullScreenViewControllerC23backgroundColorForRouteySo7UIColorCSSF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "spinnerColorForRoute",
+            "printedName": "spinnerColorForRoute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare24FullScreenViewControllerC20spinnerColorForRouteySo7UIColorCSSF",
+            "mangledName": "$s16FeltEmbeddedCare24FullScreenViewControllerC20spinnerColorForRouteySo7UIColorCSSF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -29116,6 +29203,59 @@
             "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleTabBarVisibility",
+            "printedName": "handleTabBarVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityEvent",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityEvent",
+                "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerP22handleTabBarVisibilityyyAA0hijE0VF",
+            "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerP22handleTabBarVisibilityyyAA0hijE0VF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleTabBarVisibility",
+            "printedName": "handleTabBarVisibility(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityEvent",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityEvent",
+                "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerPAAE22handleTabBarVisibilityyyAA0hijE0VF",
+            "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerPAAE22handleTabBarVisibilityyyAA0hijE0VF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -41145,6 +41285,122 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TabBarVisibilityEvent",
+        "printedName": "TabBarVisibilityEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "visible",
+            "printedName": "visible",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV7visibleSbvp",
+            "mangledName": "$s16FeltEmbeddedCare21TabBarVisibilityEventV7visibleSbvp",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV7visibleSbvg",
+                "mangledName": "$s16FeltEmbeddedCare21TabBarVisibilityEventV7visibleSbvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(visible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityEvent",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityEvent",
+                "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV7visibleACSb_tcfc",
+            "mangledName": "$s16FeltEmbeddedCare21TabBarVisibilityEventV7visibleACSb_tcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV",
+        "mangledName": "$s16FeltEmbeddedCare21TabBarVisibilityEventV",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "EventParser",
         "printedName": "EventParser",
         "children": [
@@ -41267,6 +41523,47 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare11EventParserO10parseError4fromAA0gD0VSg9Capacitor7JSValue_pSg_tFZ",
             "mangledName": "$s16FeltEmbeddedCare11EventParserO10parseError4fromAA0gD0VSg9Capacitor7JSValue_pSg_tFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parseTabBarVisibility",
+            "printedName": "parseTabBarVisibility(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TabBarVisibilityEvent",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityEvent",
+                    "usr": "s:16FeltEmbeddedCare21TabBarVisibilityEventV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Capacitor.JSValue)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSValue",
+                    "printedName": "any Capacitor.JSValue",
+                    "usr": "s:9Capacitor7JSValueP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare11EventParserO21parseTabBarVisibility4fromAA0ghiD0VSg9Capacitor7JSValue_pSg_tFZ",
+            "mangledName": "$s16FeltEmbeddedCare11EventParserO21parseTabBarVisibility4fromAA0ghiD0VSg9Capacitor7JSValue_pSg_tFZ",
             "moduleName": "FeltEmbeddedCare",
             "static": true,
             "funcSelfKind": "NonMutating"
@@ -42760,6 +43057,130 @@
         "children": [
           {
             "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FeltEmbeddedCare.EmbeddedCare?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EmbeddedCare",
+                    "printedName": "FeltEmbeddedCare.EmbeddedCare",
+                    "usr": "c:@M@FeltEmbeddedCare@objc(cs)EmbeddedCare"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare0bC0C8instanceACSgvpZ",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C8instanceACSgvpZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FeltEmbeddedCare.EmbeddedCare?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedCare",
+                        "printedName": "FeltEmbeddedCare.EmbeddedCare",
+                        "usr": "c:@M@FeltEmbeddedCare@objc(cs)EmbeddedCare"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C8instanceACSgvgZ",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C8instanceACSgvgZ",
+                "moduleName": "FeltEmbeddedCare",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FeltEmbeddedCare.EmbeddedCare?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedCare",
+                        "printedName": "FeltEmbeddedCare.EmbeddedCare",
+                        "usr": "c:@M@FeltEmbeddedCare@objc(cs)EmbeddedCare"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C8instanceACSgvsZ",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C8instanceACSgvsZ",
+                "moduleName": "FeltEmbeddedCare",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C8instanceACSgvMZ",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C8instanceACSgvMZ",
+                "moduleName": "FeltEmbeddedCare",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "shared",
             "printedName": "shared",
             "children": [
@@ -42775,14 +43196,10 @@
             "mangledName": "$s16FeltEmbeddedCare0bC0C6sharedACvpZ",
             "moduleName": "FeltEmbeddedCare",
             "static": true,
+            "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -42801,10 +43218,52 @@
                 "mangledName": "$s16FeltEmbeddedCare0bC0C6sharedACvgZ",
                 "moduleName": "FeltEmbeddedCare",
                 "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInstanceInitialized",
+            "printedName": "isInstanceInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare0bC0C21isInstanceInitializedSbvpZ",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C21isInstanceInitializedSbvpZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
                 ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C21isInstanceInitializedSbvgZ",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C21isInstanceInitializedSbvgZ",
+                "moduleName": "FeltEmbeddedCare",
+                "static": true,
+                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -43531,62 +43990,6 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(sdkKey:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare0bC0C10initialize6sdkKey10completionySS_yycSgtKF",
-            "mangledName": "$s16FeltEmbeddedCare0bC0C10initialize6sdkKey10completionySS_yycSgtKF",
-            "moduleName": "FeltEmbeddedCare",
-            "deprecated": true,
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "initialize",
             "printedName": "initialize(sdkKey:)",
             "children": [
               {
@@ -43602,14 +44005,37 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare0bC0C10initialize6sdkKeyySS_tYaKF",
-            "mangledName": "$s16FeltEmbeddedCare0bC0C10initialize6sdkKeyySS_tYaKF",
+            "usr": "s:16FeltEmbeddedCare0bC0C10initialize6sdkKeyySS_tYaKFZ",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C10initialize6sdkKeyySS_tYaKFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureManagers",
+            "printedName": "configureManagers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare0bC0C17configureManagersyyF",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C17configureManagersyyF",
             "moduleName": "FeltEmbeddedCare",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "Custom"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -46029,6 +46455,44 @@
             "mangledName": "$s16FeltEmbeddedCare5TopicO21subscriptionCompletedyA2CmF",
             "moduleName": "FeltEmbeddedCare",
             "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "tabBarVisibility",
+            "printedName": "tabBarVisibility",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FeltEmbeddedCare.Topic.Type) -> FeltEmbeddedCare.Topic",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Topic",
+                    "printedName": "FeltEmbeddedCare.Topic",
+                    "usr": "s:16FeltEmbeddedCare5TopicO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FeltEmbeddedCare.Topic.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Topic",
+                        "printedName": "FeltEmbeddedCare.Topic",
+                        "usr": "s:16FeltEmbeddedCare5TopicO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FeltEmbeddedCare5TopicO16tabBarVisibilityyA2CmF",
+            "mangledName": "$s16FeltEmbeddedCare5TopicO16tabBarVisibilityyA2CmF",
+            "moduleName": "FeltEmbeddedCare",
+            "fixedbinaryorder": 7
           },
           {
             "kind": "Constructor",
@@ -48607,16 +49071,65 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 1124,
       "length": 15,
       "value": "\"startingRoute\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1853,
+      "offset": 2011,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7843,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7845,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7857,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7860,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7871,
+      "length": 2,
+      "value": "43"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7874,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7886,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
@@ -49265,14 +49778,14 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 5575,
+      "offset": 6629,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 5627,
+      "offset": 6681,
       "length": 13,
       "value": "\"felt-method\""
     },

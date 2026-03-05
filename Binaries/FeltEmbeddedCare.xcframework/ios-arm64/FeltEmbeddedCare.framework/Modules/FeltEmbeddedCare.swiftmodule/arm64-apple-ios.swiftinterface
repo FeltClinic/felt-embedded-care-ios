@@ -758,7 +758,12 @@ public struct TermsAcceptanceEvent {
   public typealias UIViewControllerType = FeltEmbeddedCare.FullScreenViewController
 }
 @objc @_hasMissingDesignatedInitializers public class EmbeddedCare : ObjectiveC.NSObject {
-  public static let shared: FeltEmbeddedCare.EmbeddedCare
+  public class var shared: FeltEmbeddedCare.EmbeddedCare {
+    get
+  }
+  public class var isInstanceInitialized: Swift.Bool {
+    get
+  }
   final public let events: FeltEmbeddedCare.EventsManager
   final public let badges: FeltEmbeddedCare.BadgeManager
   final public let pushNotifications: FeltEmbeddedCare.PushNotificationPermissionManager
@@ -770,11 +775,7 @@ public struct TermsAcceptanceEvent {
   public var isInitialized: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
-  @available(*, deprecated, message: "Use async version: try await embeddedCare.initialize(sdkKey:) instead. The synchronous version returns before initialization completes, which can cause race conditions.")
-  public func initialize(sdkKey: Swift.String, completion: (() -> Swift.Void)? = nil) throws
-  #endif
-  public func initialize(sdkKey: Swift.String) async throws
+  public class func initialize(sdkKey: Swift.String) async throws
   #if compiler(>=5.3) && $NonescapableTypes
   public var fullScreenExperiencePresentationHandler: ((FeltEmbeddedCare.FullScreenPresentationContext) -> Swift.Void)? {
     get
