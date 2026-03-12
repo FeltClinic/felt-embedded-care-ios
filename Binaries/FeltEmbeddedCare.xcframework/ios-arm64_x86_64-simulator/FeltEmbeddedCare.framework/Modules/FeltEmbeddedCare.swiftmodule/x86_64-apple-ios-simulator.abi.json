@@ -10503,68 +10503,6 @@
           },
           {
             "kind": "Function",
-            "name": "onDebugContextReceived",
-            "printedName": "onDebugContextReceived(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FeltEmbeddedCare.DebugContextReceivedEvent) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DebugContextReceivedEvent",
-                    "printedName": "FeltEmbeddedCare.DebugContextReceivedEvent",
-                    "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare13EventsManagerC22onDebugContextReceivedyyyAA0ghI5EventVcF",
-            "mangledName": "$s16FeltEmbeddedCare13EventsManagerC22onDebugContextReceivedyyyAA0ghI5EventVcF",
-            "moduleName": "FeltEmbeddedCare",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearDebugContextReceivedHandler",
-            "printedName": "clearDebugContextReceivedHandler()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare13EventsManagerC32clearDebugContextReceivedHandleryyF",
-            "mangledName": "$s16FeltEmbeddedCare13EventsManagerC32clearDebugContextReceivedHandleryyF",
-            "moduleName": "FeltEmbeddedCare",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "dispatchFeltSubscriptionCompleted",
             "printedName": "dispatchFeltSubscriptionCompleted(_:)",
             "children": [
@@ -10610,82 +10548,6 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare13EventsManagerC23dispatchTermsAcceptanceyyAA0gH5EventVF",
             "mangledName": "$s16FeltEmbeddedCare13EventsManagerC23dispatchTermsAcceptanceyyAA0gH5EventVF",
-            "moduleName": "FeltEmbeddedCare",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dispatchDebugContextReceived",
-            "printedName": "dispatchDebugContextReceived(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DebugContextReceivedEvent",
-                "printedName": "FeltEmbeddedCare.DebugContextReceivedEvent",
-                "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare13EventsManagerC28dispatchDebugContextReceivedyyAA0ghI5EventVF",
-            "mangledName": "$s16FeltEmbeddedCare13EventsManagerC28dispatchDebugContextReceivedyyAA0ghI5EventVF",
-            "moduleName": "FeltEmbeddedCare",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "validateAndDispatchDebugContext",
-            "printedName": "validateAndDispatchDebugContext(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare13EventsManagerC31validateAndDispatchDebugContextySSSgSDySSypGF",
-            "mangledName": "$s16FeltEmbeddedCare13EventsManagerC31validateAndDispatchDebugContextySSSgSDySSypGF",
             "moduleName": "FeltEmbeddedCare",
             "isOpen": true,
             "declAttributes": [
@@ -10951,210 +10813,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "FeltEmbeddedCare",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DebugContextReceivedEvent",
-        "printedName": "DebugContextReceivedEvent",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "timestamp",
-            "printedName": "timestamp",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV9timestamp10Foundation4DateVvp",
-            "mangledName": "$s16FeltEmbeddedCare25DebugContextReceivedEventV9timestamp10Foundation4DateVvp",
-            "moduleName": "FeltEmbeddedCare",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV9timestamp10Foundation4DateVvg",
-                "mangledName": "$s16FeltEmbeddedCare25DebugContextReceivedEventV9timestamp10Foundation4DateVvg",
-                "moduleName": "FeltEmbeddedCare",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "context",
-            "printedName": "context",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV7contextSDySSypGvp",
-            "mangledName": "$s16FeltEmbeddedCare25DebugContextReceivedEventV7contextSDySSypGvp",
-            "moduleName": "FeltEmbeddedCare",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV7contextSDySSypGvg",
-                "mangledName": "$s16FeltEmbeddedCare25DebugContextReceivedEventV7contextSDySSypGvg",
-                "moduleName": "FeltEmbeddedCare",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(timestamp:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DebugContextReceivedEvent",
-                "printedName": "FeltEmbeddedCare.DebugContextReceivedEvent",
-                "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV9timestamp7contextAC10Foundation4DateV_SDySSypGtcfc",
-            "mangledName": "$s16FeltEmbeddedCare25DebugContextReceivedEventV9timestamp7contextAC10Foundation4DateV_SDySSypGtcfc",
-            "moduleName": "FeltEmbeddedCare",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:16FeltEmbeddedCare25DebugContextReceivedEventV",
-        "mangledName": "$s16FeltEmbeddedCare25DebugContextReceivedEventV",
-        "moduleName": "FeltEmbeddedCare",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "FeltEmbeddedCare"
       },
       {
@@ -11217,6 +10875,65 @@
           {
             "kind": "Function",
             "name": "buildURLForWebViews",
+            "printedName": "buildURLForWebViews(_:stableId:externalAccountId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare11URLBuildingP19buildURLForWebViews_8stableId015externalAccountJ010Foundation3URLVAI_SSSgAJtF",
+            "mangledName": "$s16FeltEmbeddedCare11URLBuildingP19buildURLForWebViews_8stableId015externalAccountJ010Foundation3URLVAI_SSSgAJtF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.URLBuilding>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.URLBuilding>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildURLForWebViews",
             "printedName": "buildURLForWebViews(_:stableId:)",
             "children": [
               {
@@ -11247,16 +10964,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare11URLBuildingP19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
-            "mangledName": "$s16FeltEmbeddedCare11URLBuildingP19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
+            "usr": "s:16FeltEmbeddedCare11URLBuildingPAAE19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
+            "mangledName": "$s16FeltEmbeddedCare11URLBuildingPAAE19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
             "moduleName": "FeltEmbeddedCare",
             "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.URLBuilding>",
             "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.URLBuilding>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -11329,7 +11042,7 @@
           {
             "kind": "Function",
             "name": "buildURLForWebViews",
-            "printedName": "buildURLForWebViews(_:stableId:)",
+            "printedName": "buildURLForWebViews(_:stableId:externalAccountId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11356,15 +11069,26 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare10URLBuilderV19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
-            "mangledName": "$s16FeltEmbeddedCare10URLBuilderV19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
+            "usr": "s:16FeltEmbeddedCare10URLBuilderV19buildURLForWebViews_8stableId015externalAccountJ010Foundation3URLVAI_SSSgAJtF",
+            "mangledName": "$s16FeltEmbeddedCare10URLBuilderV19buildURLForWebViews_8stableId015externalAccountJ010Foundation3URLVAI_SSSgAJtF",
             "moduleName": "FeltEmbeddedCare",
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -12344,7 +12068,7 @@
           {
             "kind": "Function",
             "name": "buildURLForWebViews",
-            "printedName": "buildURLForWebViews(_:stableId:)",
+            "printedName": "buildURLForWebViews(_:stableId:externalAccountId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12371,11 +12095,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare14MockURLBuilderC19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
-            "mangledName": "$s16FeltEmbeddedCare14MockURLBuilderC19buildURLForWebViews_8stableId10Foundation3URLVAH_SSSgtF",
+            "usr": "s:16FeltEmbeddedCare14MockURLBuilderC19buildURLForWebViews_8stableId015externalAccountK010Foundation3URLVAI_SSSgAJtF",
+            "mangledName": "$s16FeltEmbeddedCare14MockURLBuilderC19buildURLForWebViews_8stableId015externalAccountK010Foundation3URLVAI_SSSgAJtF",
             "moduleName": "FeltEmbeddedCare",
             "declAttributes": [
               "Final"
@@ -15380,6 +15118,232 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StatsigOnDeviceEvaluations",
+        "printedName": "StatsigOnDeviceEvaluations",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StatsigHelper",
+        "printedName": "StatsigHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createStatsigUser",
+            "printedName": "createStatsigUser(userID:email:stableID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StatsigUser",
+                "printedName": "StatsigOnDeviceEvaluations.StatsigUser",
+                "usr": "c:@M@StatsigOnDeviceEvaluations@objc(cs)StatsigUser"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13StatsigHelperO06createD4User6userID5email06stableI00D19OnDeviceEvaluations0dG0CSSSg_A2KtFZ",
+            "mangledName": "$s16FeltEmbeddedCare13StatsigHelperO06createD4User6userID5email06stableI00D19OnDeviceEvaluations0dG0CSSSg_A2KtFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStatsigBootstrapData",
+            "printedName": "getStatsigBootstrapData(client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FeltEmbeddedCare.BusinessOptimizationClient)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BusinessOptimizationClient",
+                    "printedName": "any FeltEmbeddedCare.BusinessOptimizationClient",
+                    "usr": "s:16FeltEmbeddedCare26BusinessOptimizationClientP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13StatsigHelperO03getD13BootstrapData6clientSDySSypGSgAA26BusinessOptimizationClient_pSg_tFZ",
+            "mangledName": "$s16FeltEmbeddedCare13StatsigHelperO03getD13BootstrapData6clientSDySSypGSgAA26BusinessOptimizationClient_pSg_tFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStableId",
+            "printedName": "getStableId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13StatsigHelperO11getStableIdSSSgyFZ",
+            "mangledName": "$s16FeltEmbeddedCare13StatsigHelperO11getStableIdSSSgyFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16FeltEmbeddedCare13StatsigHelperO",
+        "mangledName": "$s16FeltEmbeddedCare13StatsigHelperO",
+        "moduleName": "FeltEmbeddedCare",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -19599,27 +19563,6 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare16ContextLifecycleC06createD0_9overrides16statsigBootstrapSDySSypGAA7AccountVSg_A2GSgtF",
             "mangledName": "$s16FeltEmbeddedCare16ContextLifecycleC06createD0_9overrides16statsigBootstrapSDySSypGAA7AccountVSg_A2GSgtF",
-            "moduleName": "FeltEmbeddedCare",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "debugPrintCache",
-            "printedName": "debugPrintCache()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare16ContextLifecycleC15debugPrintCacheyyF",
-            "mangledName": "$s16FeltEmbeddedCare16ContextLifecycleC15debugPrintCacheyyF",
             "moduleName": "FeltEmbeddedCare",
             "isOpen": true,
             "declAttributes": [
@@ -39356,8 +39299,8 @@
       },
       {
         "kind": "Import",
-        "name": "OSLog",
-        "printedName": "OSLog",
+        "name": "Capacitor",
+        "printedName": "Capacitor",
         "declKind": "Import",
         "moduleName": "FeltEmbeddedCare",
         "declAttributes": [
@@ -39366,15 +39309,15 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
+        "name": "OSLog",
+        "printedName": "OSLog",
         "declKind": "Import",
         "moduleName": "FeltEmbeddedCare"
       },
       {
         "kind": "Import",
-        "name": "Capacitor",
-        "printedName": "Capacitor",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "FeltEmbeddedCare"
       },
@@ -40098,6 +40041,7 @@
         "declAttributes": [
           "Preconcurrency",
           "Custom",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",
@@ -44499,7 +44443,7 @@
           {
             "kind": "Function",
             "name": "updateBusinessOptimizationUser",
-            "printedName": "updateBusinessOptimizationUser(userID:email:)",
+            "printedName": "updateBusinessOptimizationUser(userID:email:stableID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -44533,11 +44477,26 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare0bC0C30updateBusinessOptimizationUser6userID5emailySSSg_AGtF",
-            "mangledName": "$s16FeltEmbeddedCare0bC0C30updateBusinessOptimizationUser6userID5emailySSSg_AGtF",
+            "usr": "s:16FeltEmbeddedCare0bC0C30updateBusinessOptimizationUser6userID5email06stableI0ySSSg_A2HtF",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C30updateBusinessOptimizationUser6userID5email06stableI0ySSSg_A2HtF",
             "moduleName": "FeltEmbeddedCare",
             "isOpen": true,
             "isFromExtension": true,
@@ -44853,58 +44812,35 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "getStatsigBootstrapData",
-            "printedName": "getStatsigBootstrapData()",
+            "kind": "Var",
+            "name": "entrypointViewedEventName",
+            "printedName": "entrypointViewedEventName",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare0bC0C23getStatsigBootstrapDataSDySSypGSgyF",
-            "mangledName": "$s16FeltEmbeddedCare0bC0C23getStatsigBootstrapDataSDySSypGSgyF",
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare0bC0C25entrypointViewedEventNameSSvpZ",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C25entrypointViewedEventNameSSvpZ",
             "moduleName": "FeltEmbeddedCare",
-            "isOpen": true,
+            "static": true,
             "declAttributes": [
-              "RawDocComment"
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
             ],
             "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getStableId",
-            "printedName": "getStableId()",
-            "children": [
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -44913,19 +44849,19 @@
                     "usr": "s:SS"
                   }
                 ],
-                "usr": "s:Sq"
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C25entrypointViewedEventNameSSvgZ",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C25entrypointViewedEventNameSSvgZ",
+                "moduleName": "FeltEmbeddedCare",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
               }
-            ],
-            "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare0bC0C11getStableIdSSSgyF",
-            "mangledName": "$s16FeltEmbeddedCare0bC0C11getStableIdSSSgyF",
-            "moduleName": "FeltEmbeddedCare",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            ]
           },
           {
             "kind": "Function",
@@ -48504,16 +48440,23 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
-      "offset": 7401,
+      "offset": 7536,
       "length": 15,
       "value": "\"app_lifecycle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 7589,
       "length": 12,
       "value": "\"impression\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "kind": "StringLiteral",
+      "offset": 7645,
+      "length": 19,
+      "value": "\"entrypoint_viewed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/NotificationManager.swift",
@@ -48812,14 +48755,14 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
       "kind": "Array",
-      "offset": 1264,
+      "offset": 1480,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
       "kind": "IntegerLiteral",
-      "offset": 2640,
+      "offset": 2851,
       "length": 1,
       "value": "0"
     },
@@ -49036,35 +48979,35 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 4057,
+      "offset": 4136,
       "length": 26,
       "value": "\"Component height changed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 4115,
+      "offset": 4194,
       "length": 11,
       "value": "\"component\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 4155,
+      "offset": 4234,
       "length": 7,
       "value": "\"route\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 4182,
+      "offset": 4261,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4209,
+      "offset": 4288,
       "length": 2,
       "value": "-1"
     },
@@ -49078,56 +49021,56 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2011,
+      "offset": 2073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7843,
+      "offset": 7967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7845,
+      "offset": 7969,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7857,
+      "offset": 7981,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7860,
+      "offset": 7984,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7871,
+      "offset": 7995,
       "length": 2,
       "value": "43"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7874,
+      "offset": 7998,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7886,
+      "offset": 8010,
       "length": 1,
       "value": "1"
     },
@@ -49722,14 +49665,14 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 756,
+      "offset": 833,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4756,
+      "offset": 4976,
       "length": 1,
       "value": "0"
     },
@@ -49778,14 +49721,14 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 6630,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 6681,
+      "offset": 6682,
       "length": 13,
       "value": "\"felt-method\""
     },

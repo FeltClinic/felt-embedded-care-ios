@@ -272,8 +272,6 @@ public struct SubscriptionCompletedEvent {
   public func clearSubscriptionCompletedHandler()
   public func onTermsAcceptance(_ handler: @escaping (FeltEmbeddedCare.TermsAcceptanceEvent) -> Swift.Void)
   public func clearTermsAcceptanceHandler()
-  public func onDebugContextReceived(_ handler: @escaping (FeltEmbeddedCare.DebugContextReceivedEvent) -> Swift.Void)
-  public func clearDebugContextReceivedHandler()
   @objc deinit
 }
 extension FeltEmbeddedCare.EmbeddedCare {
@@ -292,11 +290,6 @@ extension FeltEmbeddedCare.EmbeddedCare {
       get
     }
   }
-}
-public struct DebugContextReceivedEvent {
-  public let timestamp: Foundation.Date
-  public let context: [Swift.String : Any]
-  public init(timestamp: Foundation.Date = Date(), context: [Swift.String : Any])
 }
 public protocol BadgeNetworkService {
   func fetchBadgeStatus(baseURL: Foundation.URL, accountId: Swift.String) async throws -> FeltEmbeddedCare.BadgeStatus
