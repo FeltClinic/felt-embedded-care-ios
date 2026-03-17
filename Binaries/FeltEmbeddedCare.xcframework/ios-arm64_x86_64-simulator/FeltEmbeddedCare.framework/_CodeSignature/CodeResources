@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CpzSL7LHYECpJ3hDfDn0xoRNnL8=
+		SI+1ZfZoQDIqBgGLLZyPEHX1gZM=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LhlyOOBpkJTsnJecJQ/Ui6w9uXQ=
+		lYPrE6v6dpQK8J4eDq75Z3L16f8=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E3hwparNIGiN3ILZLsfzbvCFyag=
+		uwrJXIFbvkiLW+jcJpnz9XrFHmE=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LhlyOOBpkJTsnJecJQ/Ui6w9uXQ=
+		lYPrE6v6dpQK8J4eDq75Z3L16f8=
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J5RxHg1VSKhc+knTFVwUjHCQnrg=
+		sFu+ANJNDVgGd3vydnBDjwpa3J8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5erAvJyAA+w2eGxFVCE+ub0/tC5CqMRtYh+KSfZkJ/Q=
+			071DMmd2PXmpb/4MaV8K2U1Evb8GGdyNaPErBoyPg9k=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUajFiSc8VtzTp64R4l4AFsrpvU+9LeSEP3xVvNAcBo=
+			bh6LUlwPPM/hvlX6uy5yaI7eY/7anW41beYhgOpIrOs=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5erAvJyAA+w2eGxFVCE+ub0/tC5CqMRtYh+KSfZkJ/Q=
+			071DMmd2PXmpb/4MaV8K2U1Evb8GGdyNaPErBoyPg9k=
 			</data>
 		</dict>
 		<key>Modules/FeltEmbeddedCare.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4xt7jEPXYhAa/LP1v32njMpcFa3GG9KfNThMNUqLiIw=
+			qduAMqyuHFxh+huxb/zBmjYSWtlAZQqmgKfos94oSdE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -16022,6 +16022,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "FullScreenBridgeEventHandler",
+            "printedName": "FullScreenBridgeEventHandler",
+            "usr": "s:16FeltEmbeddedCare28FullScreenBridgeEventHandlerP",
+            "mangledName": "$s16FeltEmbeddedCare28FullScreenBridgeEventHandlerP"
+          },
+          {
+            "kind": "Conformance",
             "name": "BridgeEventHandler",
             "printedName": "BridgeEventHandler",
             "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerP",
@@ -23313,6 +23320,29 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleTermsAcceptance",
+            "printedName": "handleTermsAcceptance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare24FullScreenViewControllerC21handleTermsAcceptanceyyF",
+            "mangledName": "$s16FeltEmbeddedCare24FullScreenViewControllerC21handleTermsAcceptanceyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -23418,6 +23448,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FullScreenBridgeEventHandler",
+            "printedName": "FullScreenBridgeEventHandler",
+            "usr": "s:16FeltEmbeddedCare28FullScreenBridgeEventHandlerP",
+            "mangledName": "$s16FeltEmbeddedCare28FullScreenBridgeEventHandlerP"
           },
           {
             "kind": "Conformance",
@@ -29230,8 +29267,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FullScreenBridgeEventHanler",
-        "printedName": "FullScreenBridgeEventHanler",
+        "name": "FullScreenBridgeEventHandler",
+        "printedName": "FullScreenBridgeEventHandler",
         "children": [
           {
             "kind": "Function",
@@ -29251,11 +29288,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare27FullScreenBridgeEventHanlerP11handleBadgeyyAA0jG0VF",
-            "mangledName": "$s16FeltEmbeddedCare27FullScreenBridgeEventHanlerP11handleBadgeyyAA0jG0VF",
+            "usr": "s:16FeltEmbeddedCare28FullScreenBridgeEventHandlerP11handleBadgeyyAA0jG0VF",
+            "mangledName": "$s16FeltEmbeddedCare28FullScreenBridgeEventHandlerP11handleBadgeyyAA0jG0VF",
             "moduleName": "FeltEmbeddedCare",
-            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.FullScreenBridgeEventHanler>",
-            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.FullScreenBridgeEventHanler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.FullScreenBridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.FullScreenBridgeEventHandler>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -29272,19 +29309,40 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FeltEmbeddedCare27FullScreenBridgeEventHanlerP27handleSubscriptionCompletedyyF",
-            "mangledName": "$s16FeltEmbeddedCare27FullScreenBridgeEventHanlerP27handleSubscriptionCompletedyyF",
+            "usr": "s:16FeltEmbeddedCare28FullScreenBridgeEventHandlerP27handleSubscriptionCompletedyyF",
+            "mangledName": "$s16FeltEmbeddedCare28FullScreenBridgeEventHandlerP27handleSubscriptionCompletedyyF",
             "moduleName": "FeltEmbeddedCare",
-            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.FullScreenBridgeEventHanler>",
-            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.FullScreenBridgeEventHanler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.FullScreenBridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.FullScreenBridgeEventHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleTermsAcceptance",
+            "printedName": "handleTermsAcceptance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28FullScreenBridgeEventHandlerP21handleTermsAcceptanceyyF",
+            "mangledName": "$s16FeltEmbeddedCare28FullScreenBridgeEventHandlerP21handleTermsAcceptanceyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.FullScreenBridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.FullScreenBridgeEventHandler>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:16FeltEmbeddedCare27FullScreenBridgeEventHanlerP",
-        "mangledName": "$s16FeltEmbeddedCare27FullScreenBridgeEventHanlerP",
+        "usr": "s:16FeltEmbeddedCare28FullScreenBridgeEventHandlerP",
+        "mangledName": "$s16FeltEmbeddedCare28FullScreenBridgeEventHandlerP",
         "moduleName": "FeltEmbeddedCare",
         "genericSig": "<τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
         "sugared_genericSig": "<Self : FeltEmbeddedCare.BridgeEventHandler>",
@@ -46394,6 +46452,44 @@
           },
           {
             "kind": "Var",
+            "name": "termsAcceptance",
+            "printedName": "termsAcceptance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FeltEmbeddedCare.Topic.Type) -> FeltEmbeddedCare.Topic",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Topic",
+                    "printedName": "FeltEmbeddedCare.Topic",
+                    "usr": "s:16FeltEmbeddedCare5TopicO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FeltEmbeddedCare.Topic.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Topic",
+                        "printedName": "FeltEmbeddedCare.Topic",
+                        "usr": "s:16FeltEmbeddedCare5TopicO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FeltEmbeddedCare5TopicO15termsAcceptanceyA2CmF",
+            "mangledName": "$s16FeltEmbeddedCare5TopicO15termsAcceptanceyA2CmF",
+            "moduleName": "FeltEmbeddedCare",
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
             "name": "tabBarVisibility",
             "printedName": "tabBarVisibility",
             "children": [
@@ -46428,7 +46524,7 @@
             "usr": "s:16FeltEmbeddedCare5TopicO16tabBarVisibilityyA2CmF",
             "mangledName": "$s16FeltEmbeddedCare5TopicO16tabBarVisibilityyA2CmF",
             "moduleName": "FeltEmbeddedCare",
-            "fixedbinaryorder": 7
+            "fixedbinaryorder": 8
           },
           {
             "kind": "Constructor",
