@@ -291,9 +291,11 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatab
   public static func == (a: FeltEmbeddedCare.NetworkError, b: FeltEmbeddedCare.NetworkError) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers public class ExperiencePresentationManager {
+  @_Concurrency.MainActor public func preloadExperience(_ experience: FeltEmbeddedCare.FullScreenExperience)
   @_Concurrency.MainActor public func presentExperience(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
   @_Concurrency.MainActor public func presentOverlay(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
   @_Concurrency.MainActor public func presentTransparentFullScreen(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
+  @_Concurrency.MainActor public func dismissWarmPresentation()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TransparentFullScreenViewController : FeltEmbeddedCare.FullScreenViewController {
@@ -308,10 +310,14 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatab
   @_Concurrency.MainActor public var $isTabBarVisible: Combine.Published<Swift.Bool>.Publisher {
     get
   }
+  @_Concurrency.MainActor public var customTabBarHeight: CoreFoundation.CGFloat?
   @_Concurrency.MainActor public init()
   @_Concurrency.MainActor public func setTabBarVisibility(_ visible: Swift.Bool, for context: Swift.String)
   @_Concurrency.MainActor public func setTabBarVisibility(_ visible: Swift.Bool, for context: Swift.String, priority: FeltEmbeddedCare.TabBarVisibilityPriority)
   @_Concurrency.MainActor public func removeVisibilityRule(for context: Swift.String)
+  @_Concurrency.MainActor public func setTabBarVisibility(_ visible: Swift.Bool, for context: FeltEmbeddedCare.TabBarVisibilityContext)
+  @_Concurrency.MainActor public func setTabBarVisibility(_ visible: Swift.Bool, for context: FeltEmbeddedCare.TabBarVisibilityContext, priority: FeltEmbeddedCare.TabBarVisibilityPriority)
+  @_Concurrency.MainActor public func removeVisibilityRule(for context: FeltEmbeddedCare.TabBarVisibilityContext)
   @_Concurrency.MainActor public func removeAllVisibilityRules()
   @_Concurrency.MainActor public func hideTabBarForFullScreenExperience()
   @_Concurrency.MainActor public func showTabBarAfterFullScreenExperience()
@@ -326,6 +332,16 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatab
   @_Concurrency.MainActor public func discoverTabBarController(from viewController: UIKit.UIViewController) -> UIKit.UITabBarController?
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
+}
+public enum TabBarVisibilityContext : Swift.String {
+  case `default`
+  case fullscreenExperience
+  case webApp
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public enum TabBarVisibilityPriority : Swift.Int, Swift.CaseIterable {
   case low
@@ -692,6 +708,7 @@ public struct TermsAcceptanceEvent {
   final public let notifications: FeltEmbeddedCare.NotificationManager
   final public let router: FeltEmbeddedCare.WebBridgeEventHandler
   @_Concurrency.MainActor final public let tabBarManager: FeltEmbeddedCare.TabBarVisibilityManager
+  public var stableIdPrefix: Swift.String?
   public var isInitialized: Swift.Bool {
     get
   }
@@ -718,6 +735,9 @@ extension FeltEmbeddedCare.TabBadgeModifier : Swift.Sendable {}
 extension FeltEmbeddedCare.EmbeddedCare.Error : Swift.Equatable {}
 extension FeltEmbeddedCare.EmbeddedCare.Error : Swift.Hashable {}
 extension FeltEmbeddedCare.TabBarVisibilityManager : Swift.Sendable {}
+extension FeltEmbeddedCare.TabBarVisibilityContext : Swift.Equatable {}
+extension FeltEmbeddedCare.TabBarVisibilityContext : Swift.Hashable {}
+extension FeltEmbeddedCare.TabBarVisibilityContext : Swift.RawRepresentable {}
 extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.Equatable {}
 extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.Hashable {}
 extension FeltEmbeddedCare.TabBarVisibilityPriority : Swift.RawRepresentable {}

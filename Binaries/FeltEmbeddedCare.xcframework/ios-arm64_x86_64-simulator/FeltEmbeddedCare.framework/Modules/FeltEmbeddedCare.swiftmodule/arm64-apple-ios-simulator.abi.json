@@ -5685,13 +5685,27 @@
       },
       {
         "kind": "Import",
-        "name": "OSLog",
-        "printedName": "OSLog",
+        "name": "Capacitor",
+        "printedName": "Capacitor",
         "declKind": "Import",
         "moduleName": "FeltEmbeddedCare",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
       },
       {
         "kind": "Import",
@@ -5704,20 +5718,6 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "FeltEmbeddedCare"
-      },
-      {
-        "kind": "Import",
-        "name": "Capacitor",
-        "printedName": "Capacitor",
-        "declKind": "Import",
-        "moduleName": "FeltEmbeddedCare"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FeltEmbeddedCare"
       },
@@ -6690,6 +6690,7 @@
         "declAttributes": [
           "Preconcurrency",
           "Custom",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:@M@Capacitor@objc(cs)CAPWebViewDelegationHandler",
@@ -6967,6 +6968,44 @@
                 "mangledName": "$s16FeltEmbeddedCare15NavigationEventV18PresentationMethodO4pushyA2EmF",
                 "moduleName": "FeltEmbeddedCare",
                 "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "sheet",
+                "printedName": "sheet",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FeltEmbeddedCare.NavigationEvent.PresentationMethod.Type) -> FeltEmbeddedCare.NavigationEvent.PresentationMethod",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresentationMethod",
+                        "printedName": "FeltEmbeddedCare.NavigationEvent.PresentationMethod",
+                        "usr": "s:16FeltEmbeddedCare15NavigationEventV18PresentationMethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FeltEmbeddedCare.NavigationEvent.PresentationMethod.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PresentationMethod",
+                            "printedName": "FeltEmbeddedCare.NavigationEvent.PresentationMethod",
+                            "usr": "s:16FeltEmbeddedCare15NavigationEventV18PresentationMethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FeltEmbeddedCare15NavigationEventV18PresentationMethodO5sheetyA2EmF",
+                "mangledName": "$s16FeltEmbeddedCare15NavigationEventV18PresentationMethodO5sheetyA2EmF",
+                "moduleName": "FeltEmbeddedCare",
+                "fixedbinaryorder": 2
               },
               {
                 "kind": "Var",
@@ -15288,6 +15327,45 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyPrefix",
+            "printedName": "applyPrefix(_:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare13StatsigHelperO11applyPrefix_2toS2SSg_SStFZ",
+            "mangledName": "$s16FeltEmbeddedCare13StatsigHelperO11applyPrefix_2toS2SSg_SStFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -15558,6 +15636,79 @@
           },
           {
             "kind": "Function",
+            "name": "registerWarmWebView",
+            "printedName": "registerWarmWebView(_:onDismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebView",
+                "printedName": "FeltEmbeddedCare.WebView",
+                "usr": "c:@M@FeltEmbeddedCare@objc(cs)WebView"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare29ExperiencePresentationManagerC19registerWarmWebView_9onDismissyAA0iJ0C_yyScMYcctF",
+            "mangledName": "$s16FeltEmbeddedCare29ExperiencePresentationManagerC19registerWarmWebView_9onDismissyAA0iJ0C_yyScMYcctF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preloadExperience",
+            "printedName": "preloadExperience(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenExperience",
+                "printedName": "FeltEmbeddedCare.FullScreenExperience",
+                "usr": "s:16FeltEmbeddedCare20FullScreenExperienceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare29ExperiencePresentationManagerC07preloadD0yyAA010FullScreenD0VF",
+            "mangledName": "$s16FeltEmbeddedCare29ExperiencePresentationManagerC07preloadD0yyAA010FullScreenD0VF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "presentExperience",
             "printedName": "presentExperience(_:source:)",
             "children": [
@@ -15706,6 +15857,78 @@
           },
           {
             "kind": "Function",
+            "name": "configureWarmContainer",
+            "printedName": "configureWarmContainer(experience:onDismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WarmExperienceContainerViewController",
+                "printedName": "FeltEmbeddedCare.WarmExperienceContainerViewController",
+                "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenExperience",
+                "printedName": "FeltEmbeddedCare.FullScreenExperience",
+                "usr": "s:16FeltEmbeddedCare20FullScreenExperienceV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare29ExperiencePresentationManagerC22configureWarmContainer10experience9onDismissAA0hdI14ViewControllerCAA010FullScreenD0V_yyScMYcctF",
+            "mangledName": "$s16FeltEmbeddedCare29ExperiencePresentationManagerC22configureWarmContainer10experience9onDismissAA0hdI14ViewControllerCAA010FullScreenD0V_yyScMYcctF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "positionModalBelowClientSubviews",
+            "printedName": "positionModalBelowClientSubviews(container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WarmExperienceContainerViewController",
+                "printedName": "FeltEmbeddedCare.WarmExperienceContainerViewController",
+                "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare29ExperiencePresentationManagerC32positionModalBelowClientSubviews9containeryAA04WarmD23ContainerViewControllerC_tFZ",
+            "mangledName": "$s16FeltEmbeddedCare29ExperiencePresentationManagerC32positionModalBelowClientSubviews9containeryAA04WarmD23ContainerViewControllerC_tFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "handleFullScreenExperienceDismissal",
             "printedName": "handleFullScreenExperienceDismissal(for:)",
             "children": [
@@ -15736,6 +15959,29 @@
             "moduleName": "FeltEmbeddedCare",
             "isOpen": true,
             "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissWarmPresentation",
+            "printedName": "dismissWarmPresentation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare29ExperiencePresentationManagerC011dismissWarmE0yyF",
+            "mangledName": "$s16FeltEmbeddedCare29ExperiencePresentationManagerC011dismissWarmE0yyF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
               "Custom",
               "RawDocComment"
             ],
@@ -16136,6 +16382,122 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "customTabBarHeight",
+            "printedName": "customTabBarHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height14CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height12CoreGraphics7CGFloatVSgvs",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height14CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC06customdE6Height12CoreGraphics7CGFloatVSgvM",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -16252,6 +16614,108 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC06removeF4Rule3forySS_tF",
             "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC06removeF4Rule3forySS_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTabBarVisibility",
+            "printedName": "setTabBarVisibility(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityContext",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC03setdeF0_3forySb_AA0deF7ContextOtF",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC03setdeF0_3forySb_AA0deF7ContextOtF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTabBarVisibility",
+            "printedName": "setTabBarVisibility(_:for:priority:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityContext",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityPriority",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityPriority",
+                "usr": "s:16FeltEmbeddedCare24TabBarVisibilityPriorityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC03setdeF0_3for8priorityySb_AA0deF7ContextOAA0deF8PriorityOtF",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC03setdeF0_3for8priorityySb_AA0deF7ContextOAA0deF8PriorityOtF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeVisibilityRule",
+            "printedName": "removeVisibilityRule(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TabBarVisibilityContext",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityManagerC06removeF4Rule3foryAA0deF7ContextO_tF",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityManagerC06removeF4Rule3foryAA0deF7ContextO_tF",
             "moduleName": "FeltEmbeddedCare",
             "isOpen": true,
             "declAttributes": [
@@ -16710,6 +17174,257 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TabBarVisibilityContext",
+        "printedName": "TabBarVisibilityContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FeltEmbeddedCare.TabBarVisibilityContext.Type) -> FeltEmbeddedCare.TabBarVisibilityContext",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TabBarVisibilityContext",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                    "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityContext.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TabBarVisibilityContext",
+                        "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                        "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO7defaultyA2CmF",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityContextO7defaultyA2CmF",
+            "moduleName": "FeltEmbeddedCare"
+          },
+          {
+            "kind": "Var",
+            "name": "fullscreenExperience",
+            "printedName": "fullscreenExperience",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FeltEmbeddedCare.TabBarVisibilityContext.Type) -> FeltEmbeddedCare.TabBarVisibilityContext",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TabBarVisibilityContext",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                    "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityContext.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TabBarVisibilityContext",
+                        "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                        "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO20fullscreenExperienceyA2CmF",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityContextO20fullscreenExperienceyA2CmF",
+            "moduleName": "FeltEmbeddedCare"
+          },
+          {
+            "kind": "Var",
+            "name": "webApp",
+            "printedName": "webApp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FeltEmbeddedCare.TabBarVisibilityContext.Type) -> FeltEmbeddedCare.TabBarVisibilityContext",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TabBarVisibilityContext",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                    "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityContext.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TabBarVisibilityContext",
+                        "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                        "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO6webAppyA2CmF",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityContextO6webAppyA2CmF",
+            "moduleName": "FeltEmbeddedCare"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FeltEmbeddedCare.TabBarVisibilityContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TabBarVisibilityContext",
+                    "printedName": "FeltEmbeddedCare.TabBarVisibilityContext",
+                    "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityContextO8rawValueACSgSS_tcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO8rawValueSSvp",
+            "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityContextO8rawValueSSvp",
+            "moduleName": "FeltEmbeddedCare",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO8rawValueSSvg",
+                "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityContextO8rawValueSSvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16FeltEmbeddedCare23TabBarVisibilityContextO",
+        "mangledName": "$s16FeltEmbeddedCare23TabBarVisibilityContextO",
+        "moduleName": "FeltEmbeddedCare",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "TabBarVisibilityPriority",
         "printedName": "TabBarVisibilityPriority",
         "children": [
@@ -16999,8 +17714,7 @@
         "mangledName": "$s16FeltEmbeddedCare24TabBarVisibilityPriorityO",
         "moduleName": "FeltEmbeddedCare",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -29147,6 +29861,54 @@
           },
           {
             "kind": "Function",
+            "name": "handleWarmPresent",
+            "printedName": "handleWarmPresent(route:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerP17handleWarmPresent5routeySS_tF",
+            "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerP17handleWarmPresent5routeySS_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleWarmDismiss",
+            "printedName": "handleWarmDismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerP17handleWarmDismissyyF",
+            "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerP17handleWarmDismissyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "handleTabBarVisibility",
             "printedName": "handleTabBarVisibility(_:)",
             "children": [
@@ -29165,6 +29927,52 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerPAAE22handleTabBarVisibilityyyAA0hijE0VF",
             "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerPAAE22handleTabBarVisibilityyyAA0hijE0VF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleWarmPresent",
+            "printedName": "handleWarmPresent(route:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerPAAE17handleWarmPresent5routeySS_tF",
+            "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerPAAE17handleWarmPresent5routeySS_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
+            "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleWarmDismiss",
+            "printedName": "handleWarmDismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerPAAE17handleWarmDismissyyF",
+            "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerPAAE17handleWarmDismissyyF",
             "moduleName": "FeltEmbeddedCare",
             "genericSig": "<τ_0_0 where τ_0_0 : FeltEmbeddedCare.BridgeEventHandler>",
             "sugared_genericSig": "<Self where Self : FeltEmbeddedCare.BridgeEventHandler>",
@@ -39428,6 +40236,161 @@
           },
           {
             "kind": "Var",
+            "name": "navigationInterceptor",
+            "printedName": "navigationInterceptor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URL) -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvp",
+            "mangledName": "$s16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URL) -> Swift.Bool)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> Swift.Bool",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvg",
+                "mangledName": "$s16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URL) -> Swift.Bool)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> Swift.Bool",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvs",
+                "mangledName": "$s16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvs",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvM",
+                "mangledName": "$s16FeltEmbeddedCare7WebViewC21navigationInterceptorSb10Foundation3URLVcSgvM",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "bridge",
             "printedName": "bridge",
             "children": [
@@ -39458,7 +40421,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "hasStorage": true
           },
           {
@@ -39492,7 +40455,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true
           },
           {
@@ -39526,7 +40489,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
@@ -39554,7 +40517,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "isLet": true,
             "hasStorage": true
           },
@@ -39582,7 +40545,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "isLet": true,
             "hasStorage": true
           },
@@ -39618,7 +40581,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true
           },
           {
@@ -39666,7 +40629,42 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "pendingSafeAreaUpdate",
+            "printedName": "pendingSafeAreaUpdate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchWorkItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchWorkItem",
+                    "printedName": "Dispatch.DispatchWorkItem",
+                    "usr": "s:8Dispatch0A8WorkItemC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare7WebViewC21pendingSafeAreaUpdate33_AE65A40A02634DE820BC37F8EF99394CLL8Dispatch0Q8WorkItemCSgvp",
+            "mangledName": "$s16FeltEmbeddedCare7WebViewC21pendingSafeAreaUpdate33_AE65A40A02634DE820BC37F8EF99394CLL8Dispatch0Q8WorkItemCSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 12,
             "hasStorage": true
           },
           {
@@ -40972,6 +41970,1196 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WarmExperienceContainerViewController",
+        "printedName": "WarmExperienceContainerViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onDismiss",
+            "printedName": "onDismiss",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvp",
+            "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvg",
+                "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvs",
+                "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvs",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvM",
+                "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC9onDismissyycSgvM",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController(im)viewDidLoad",
+            "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC11viewDidLoadyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController(im)viewDidDisappear:",
+            "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WarmExperienceContainerViewController",
+                "printedName": "FeltEmbeddedCare.WarmExperienceContainerViewController",
+                "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FeltEmbeddedCare.WarmExperienceContainerViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WarmExperienceContainerViewController",
+                    "printedName": "FeltEmbeddedCare.WarmExperienceContainerViewController",
+                    "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController(im)initWithCoder:",
+            "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceContainerViewController",
+        "mangledName": "$s16FeltEmbeddedCare37WarmExperienceContainerViewControllerC",
+        "moduleName": "FeltEmbeddedCare",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WarmExperienceViewController",
+        "printedName": "WarmExperienceViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "experience",
+            "printedName": "experience",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenExperience",
+                "printedName": "FeltEmbeddedCare.FullScreenExperience",
+                "usr": "s:16FeltEmbeddedCare20FullScreenExperienceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC10experience33_663982389F354AD2956110BA4853646ALLAA010FullScreenE0Vvp",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC10experience33_663982389F354AD2956110BA4853646ALLAA010FullScreenE0Vvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "coordinator",
+            "printedName": "coordinator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewContainerCoordinator",
+                "printedName": "FeltEmbeddedCare.WebViewContainerCoordinator",
+                "usr": "s:16FeltEmbeddedCare27WebViewContainerCoordinatorC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC11coordinator33_663982389F354AD2956110BA4853646ALLAA03WebF20ContainerCoordinatorCvp",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC11coordinator33_663982389F354AD2956110BA4853646ALLAA03WebF20ContainerCoordinatorCvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "webView",
+            "printedName": "webView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FeltEmbeddedCare.WebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebView",
+                    "printedName": "FeltEmbeddedCare.WebView",
+                    "usr": "c:@M@FeltEmbeddedCare@objc(cs)WebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC03webF0AA03WebF0CSgvp",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC03webF0AA03WebF0CSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FeltEmbeddedCare.WebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebView",
+                        "printedName": "FeltEmbeddedCare.WebView",
+                        "usr": "c:@M@FeltEmbeddedCare@objc(cs)WebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC03webF0AA03WebF0CSgvg",
+                "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC03webF0AA03WebF0CSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bridge",
+            "printedName": "bridge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FeltEmbeddedCare.WebNativeBridge?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebNativeBridge",
+                    "printedName": "FeltEmbeddedCare.WebNativeBridge",
+                    "usr": "s:16FeltEmbeddedCare15WebNativeBridgeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC6bridge33_663982389F354AD2956110BA4853646ALLAA15WebNativeBridgeCSgvp",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC6bridge33_663982389F354AD2956110BA4853646ALLAA15WebNativeBridgeCSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isAwaitingContentReload",
+            "printedName": "isAwaitingContentReload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC23isAwaitingContentReload33_663982389F354AD2956110BA4853646ALLSbvp",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC23isAwaitingContentReload33_663982389F354AD2956110BA4853646ALLSbvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(experience:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WarmExperienceViewController",
+                "printedName": "FeltEmbeddedCare.WarmExperienceViewController",
+                "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenExperience",
+                "printedName": "FeltEmbeddedCare.FullScreenExperience",
+                "usr": "s:16FeltEmbeddedCare20FullScreenExperienceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC10experienceAcA010FullScreenE0V_tcfc",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC10experienceAcA010FullScreenE0V_tcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FeltEmbeddedCare.WarmExperienceViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WarmExperienceViewController",
+                    "printedName": "FeltEmbeddedCare.WarmExperienceViewController",
+                    "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController(im)initWithCoder:",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController(im)viewDidLoad",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC11viewDidLoadyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WarmExperienceViewController",
+                "printedName": "FeltEmbeddedCare.WarmExperienceViewController",
+                "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "FeltEmbeddedCare",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handleContentLoaded",
+            "printedName": "handleContentLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC19handleContentLoadedyyF",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC19handleContentLoadedyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleDismiss",
+            "printedName": "handleDismiss(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DismissalResult",
+                "printedName": "FeltEmbeddedCare.DismissalResult",
+                "usr": "s:16FeltEmbeddedCare15DismissalResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC13handleDismissyyAA15DismissalResultOF",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC13handleDismissyyAA15DismissalResultOF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleWarmPresent",
+            "printedName": "handleWarmPresent(route:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC06handleD7Present5routeySS_tF",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC06handleD7Present5routeySS_tF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleWarmDismiss",
+            "printedName": "handleWarmDismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC06handleD7DismissyyF",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC06handleD7DismissyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleLayoutUpdated",
+            "printedName": "handleLayoutUpdated()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC19handleLayoutUpdatedyyF",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC19handleLayoutUpdatedyyF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleNavigate",
+            "printedName": "handleNavigate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationEvent",
+                "printedName": "FeltEmbeddedCare.NavigationEvent",
+                "usr": "s:16FeltEmbeddedCare15NavigationEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC14handleNavigateyyAA15NavigationEventVF",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC14handleNavigateyyAA15NavigationEventVF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleError",
+            "printedName": "handleError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorEvent",
+                "printedName": "FeltEmbeddedCare.ErrorEvent",
+                "usr": "s:16FeltEmbeddedCare10ErrorEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare28WarmExperienceViewControllerC11handleErroryyAA0I5EventVF",
+            "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC11handleErroryyAA0I5EventVF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FeltEmbeddedCare@objc(cs)WarmExperienceViewController",
+        "mangledName": "$s16FeltEmbeddedCare28WarmExperienceViewControllerC",
+        "moduleName": "FeltEmbeddedCare",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BridgeEventHandler",
+            "printedName": "BridgeEventHandler",
+            "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerP",
+            "mangledName": "$s16FeltEmbeddedCare18BridgeEventHandlerP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FeltEmbeddedCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebViewContainerCoordinator",
+        "printedName": "WebViewContainerCoordinator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "move",
+            "printedName": "move(_:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare27WebViewContainerCoordinatorC4move_2toySo6UIViewC_AGtF",
+            "mangledName": "$s16FeltEmbeddedCare27WebViewContainerCoordinatorC4move_2toySo6UIViewC_AGtF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebViewContainerCoordinator",
+                "printedName": "FeltEmbeddedCare.WebViewContainerCoordinator",
+                "usr": "s:16FeltEmbeddedCare27WebViewContainerCoordinatorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FeltEmbeddedCare27WebViewContainerCoordinatorCACycfc",
+            "mangledName": "$s16FeltEmbeddedCare27WebViewContainerCoordinatorCACycfc",
+            "moduleName": "FeltEmbeddedCare",
+            "implicit": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16FeltEmbeddedCare27WebViewContainerCoordinatorC",
+        "mangledName": "$s16FeltEmbeddedCare27WebViewContainerCoordinatorC",
+        "moduleName": "FeltEmbeddedCare",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -41535,6 +43723,47 @@
             "declKind": "Func",
             "usr": "s:16FeltEmbeddedCare11EventParserO21parseTabBarVisibility4fromAA0ghiD0VSg9Capacitor7JSValue_pSg_tFZ",
             "mangledName": "$s16FeltEmbeddedCare11EventParserO21parseTabBarVisibility4fromAA0ghiD0VSg9Capacitor7JSValue_pSg_tFZ",
+            "moduleName": "FeltEmbeddedCare",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parseWarmPresent",
+            "printedName": "parseWarmPresent(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Capacitor.JSValue)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSValue",
+                    "printedName": "any Capacitor.JSValue",
+                    "usr": "s:9Capacitor7JSValueP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare11EventParserO16parseWarmPresent4fromSSSg9Capacitor7JSValue_pSg_tFZ",
+            "mangledName": "$s16FeltEmbeddedCare11EventParserO16parseWarmPresent4fromSSSg9Capacitor7JSValue_pSg_tFZ",
             "moduleName": "FeltEmbeddedCare",
             "static": true,
             "funcSelfKind": "NonMutating"
@@ -43765,6 +45994,175 @@
                 "declAttributes": [
                   "Final"
                 ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stableIdPrefix",
+            "printedName": "stableIdPrefix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvp",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvg",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvs",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvs",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvM",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C14stableIdPrefixSSSgvM",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resolvedStableId",
+            "printedName": "resolvedStableId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare0bC0C16resolvedStableIdSSSgvp",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C16resolvedStableIdSSSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C16resolvedStableIdSSSgvg",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C16resolvedStableIdSSSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -46475,6 +48873,82 @@
             "fixedbinaryorder": 8
           },
           {
+            "kind": "Var",
+            "name": "warmPresent",
+            "printedName": "warmPresent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FeltEmbeddedCare.Topic.Type) -> FeltEmbeddedCare.Topic",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Topic",
+                    "printedName": "FeltEmbeddedCare.Topic",
+                    "usr": "s:16FeltEmbeddedCare5TopicO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FeltEmbeddedCare.Topic.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Topic",
+                        "printedName": "FeltEmbeddedCare.Topic",
+                        "usr": "s:16FeltEmbeddedCare5TopicO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FeltEmbeddedCare5TopicO11warmPresentyA2CmF",
+            "mangledName": "$s16FeltEmbeddedCare5TopicO11warmPresentyA2CmF",
+            "moduleName": "FeltEmbeddedCare",
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "warmDismiss",
+            "printedName": "warmDismiss",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FeltEmbeddedCare.Topic.Type) -> FeltEmbeddedCare.Topic",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Topic",
+                    "printedName": "FeltEmbeddedCare.Topic",
+                    "usr": "s:16FeltEmbeddedCare5TopicO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FeltEmbeddedCare.Topic.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Topic",
+                        "printedName": "FeltEmbeddedCare.Topic",
+                        "usr": "s:16FeltEmbeddedCare5TopicO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FeltEmbeddedCare5TopicO11warmDismissyA2CmF",
+            "mangledName": "$s16FeltEmbeddedCare5TopicO11warmDismissyA2CmF",
+            "moduleName": "FeltEmbeddedCare",
+            "fixedbinaryorder": 10
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -48432,1344 +50906,1365 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 16,
       "value": "\"global_rollout\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 29,
       "value": "\"screen_recording_protection\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 18,
       "value": "\"com.felt.statsig\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 7536,
       "length": 15,
       "value": "\"app_lifecycle\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 7589,
       "length": 12,
       "value": "\"impression\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 7645,
       "length": 19,
       "value": "\"entrypoint_viewed\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/NotificationManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/NotificationManager.swift",
       "kind": "StringLiteral",
       "offset": 3258,
       "length": 26,
       "value": "\"EmbeddedCare.DeviceToken\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 660,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1283,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1304,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1323,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1343,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/Logger+Extension.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/Logger+Extension.swift",
       "kind": "BooleanLiteral",
       "offset": 394,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
       "kind": "BooleanLiteral",
       "offset": 758,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
       "kind": "IntegerLiteral",
       "offset": 4941,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "IntegerLiteral",
       "offset": 959,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 1176,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "IntegerLiteral",
       "offset": 1605,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 1645,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "FloatLiteral",
       "offset": 1140,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "IntegerLiteral",
       "offset": 1180,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1223,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1262,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1308,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1676,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1750,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1776,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "Array",
       "offset": 1885,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "IntegerLiteral",
       "offset": 1980,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 2010,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "IntegerLiteral",
       "offset": 12097,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 297,
+      "offset": 327,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
-      "kind": "Dictionary",
-      "offset": 461,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 502,
+      "offset": 529,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 542,
+      "offset": 569,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1096,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1447,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1489,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2068,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 1465,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 1487,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 1622,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 1650,
       "length": 21,
       "value": "\"https:\/\/example.com\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 2035,
       "length": 21,
       "value": "\"https:\/\/example.com\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 97,
       "value": "\"https:\/\/5122eab82c0b653cada7e9716b0dc19b@o4509452247171072.ingest.us.sentry.io\/4509471881691136\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
       "kind": "Array",
       "offset": 1480,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 2851,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "Dictionary",
       "offset": 357,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "FloatLiteral",
       "offset": 429,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2725,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2747,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2769,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2793,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2819,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 2352,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 2387,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "StringLiteral",
       "offset": 2573,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "FloatLiteral",
       "offset": 5359,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 5388,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "FloatLiteral",
       "offset": 5411,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 3770,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2750,
+      "offset": 4595,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3293,
+      "offset": 5138,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "BooleanLiteral",
       "offset": 293,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "Dictionary",
-      "offset": 365,
+      "offset": 697,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6368,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6410,
+      "length": 23,
+      "value": "\"fullscreen_experience\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6452,
+      "length": 8,
+      "value": "\"webapp\""
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5535,
+      "offset": 6537,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5555,
+      "offset": 6557,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5573,
+      "offset": 6575,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5596,
+      "offset": 6598,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "StringLiteral",
-      "offset": 6112,
+      "offset": 7114,
       "length": 25,
       "value": "\"TabBarVisibilityChanged\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6226,
+      "offset": 7228,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/Account.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Account.swift",
       "kind": "Dictionary",
       "offset": 1323,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
       "kind": "Dictionary",
       "offset": 353,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
       "kind": "Dictionary",
       "offset": 3574,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 33,
       "value": "\"dismissible_cta_cooldown_config\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
       "kind": "Array",
       "offset": 355,
       "length": 19,
       "value": "[4320, 7200, 43200]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
       "kind": "IntegerLiteral",
       "offset": 430,
       "length": 6,
       "value": "525600"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4136,
       "length": 26,
       "value": "\"Component height changed\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4194,
       "length": 11,
       "value": "\"component\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4234,
       "length": 7,
       "value": "\"route\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4261,
       "length": 8,
       "value": "\"height\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "IntegerLiteral",
       "offset": 4288,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "StringLiteral",
       "offset": 1124,
       "length": 15,
       "value": "\"startingRoute\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2073,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7967,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7969,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7981,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7984,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7995,
       "length": 2,
       "value": "43"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7998,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 8010,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1350,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2286,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "Dictionary",
       "offset": 2433,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2527,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 12682,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 1099,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 3668,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 3716,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "StringLiteral",
       "offset": 5306,
       "length": 13,
       "value": "\"App Content\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "StringLiteral",
       "offset": 5336,
       "length": 23,
       "value": "\"Request Notifications\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 5576,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 615,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 790,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 981,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1248,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1295,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1386,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1557,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1604,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1718,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1906,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2062,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2119,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2400,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "StringLiteral",
       "offset": 2430,
       "length": 9,
       "value": "\"Dismiss\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2569,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2894,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2970,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "BooleanLiteral",
       "offset": 745,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 102,
       "value": "\"Unable to perform account status network call with accountId:\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 911,
       "length": 3,
       "value": "\" and webAppURL:\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "BooleanLiteral",
       "offset": 977,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 26,
       "value": "\"Account setter triggered\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 9,
       "value": "\"account\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1659,
       "length": 46,
       "value": "\"Identical account set - skipping update work\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 25,
       "value": "\"Account change detected\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1817,
       "length": 9,
       "value": "\"account\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissStateManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissStateManager.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
       "kind": "BooleanLiteral",
       "offset": 530,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
       "kind": "BooleanLiteral",
       "offset": 736,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
       "kind": "BooleanLiteral",
       "offset": 5882,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 393,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 588,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "Dictionary",
       "offset": 776,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 1964,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 9391,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 10536,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 881,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 913,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 946,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 978,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "BooleanLiteral",
       "offset": 1002,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 1075,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 1113,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 1155,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 1202,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "BooleanLiteral",
       "offset": 1233,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 2260,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
       "kind": "StringLiteral",
       "offset": 708,
       "length": 26,
       "value": "\"\/api\/visit\/status\/stream\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
       "kind": "FloatLiteral",
       "offset": 791,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
       "kind": "Dictionary",
       "offset": 815,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 36,
       "value": "\"com.feltclinic.FeltEmbeddedCareKit\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 18,
       "value": "\"FeltEmbeddedCare\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 3386,
       "length": 66,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 3417,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 3451,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/SkeletonLoader.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 157,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/SkeletonLoader.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
       "kind": "StringLiteral",
       "offset": 1585,
       "length": 8,
       "value": "\"Medium\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/SkeletonLoader.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
       "kind": "StringLiteral",
       "offset": 1662,
       "length": 7,
       "value": "\"Large\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/Patient.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Patient.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 12,
       "value": "\"non-binary\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Models\/Patient.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Patient.swift",
       "kind": "Dictionary",
       "offset": 2048,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
-      "offset": 312,
+      "offset": 344,
       "length": 14,
       "value": "\"\/triaged-cta\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 496,
       "length": 18,
       "value": "\"\/dismissable-cta\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 625,
       "length": 12,
       "value": "\"\/info-card\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
-      "offset": 1523,
+      "offset": 1739,
       "length": 7,
       "value": "\"\/home\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
-      "offset": 1653,
+      "offset": 1869,
       "length": 14,
       "value": "\"\/value-props\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
-      "offset": 1757,
+      "offset": 1973,
       "length": 10,
       "value": "\"\/pricing\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 3342,
       "length": 25,
       "value": "\"transparent-full-screen\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/File Downloader\/FileDownloadManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/File Downloader\/FileDownloadManager.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 11,
       "value": "\"Downloads\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 949,
+      "offset": 1054,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6427,
+      "offset": 6532,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Routes.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Routes.swift",
       "kind": "Array",
       "offset": 311,
       "length": 92,
       "value": "[\"\/home\", \"\/chat-return\", \"\/value-props\", \"\/pricing\"]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Hotswap\/HotswapRootViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 355,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "Dictionary",
       "offset": 1074,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "Dictionary",
       "offset": 1202,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "Array",
       "offset": 1318,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "IntegerLiteral",
       "offset": 1506,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "IntegerLiteral",
       "offset": 1567,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 6630,
+      "offset": 6857,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 6682,
+      "offset": 6909,
       "length": 13,
       "value": "\"felt-method\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 8,
       "value": "\"PubSub\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 9,
       "value": "\"Portals\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
       "kind": "StringLiteral",
       "offset": 806,
       "length": 15,
       "value": "\"publishNative\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Desktop\/felt-embedded-care-develop\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/EmbeddedCareStateManager.swift",
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/EmbeddedCareStateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 257,
       "length": 5,
