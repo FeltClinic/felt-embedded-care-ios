@@ -40391,6 +40391,98 @@
           },
           {
             "kind": "Var",
+            "name": "suppressSafeAreaUpdates",
+            "printedName": "suppressSafeAreaUpdates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvp",
+            "mangledName": "$s16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvg",
+                "mangledName": "$s16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvs",
+                "mangledName": "$s16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvs",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvM",
+                "mangledName": "$s16FeltEmbeddedCare7WebViewC23suppressSafeAreaUpdatesSbvM",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "bridge",
             "printedName": "bridge",
             "children": [
@@ -40421,7 +40513,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true
           },
           {
@@ -40455,7 +40547,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
@@ -40489,7 +40581,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
@@ -40517,7 +40609,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "isLet": true,
             "hasStorage": true
           },
@@ -40545,7 +40637,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "isLet": true,
             "hasStorage": true
           },
@@ -40581,7 +40673,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "hasStorage": true
           },
           {
@@ -40629,7 +40721,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true
           },
           {
@@ -40664,7 +40756,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "hasStorage": true
           },
           {
@@ -52168,14 +52260,21 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1054,
+      "offset": 459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1094,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6532,
+      "offset": 6572,
       "length": 1,
       "value": "0"
     },
