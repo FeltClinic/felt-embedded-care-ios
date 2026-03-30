@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FeltEmbeddedCare
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FeltEmbeddedCare
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Capacitor
 import Combine
 import CryptoKit
@@ -20,7 +21,9 @@ public enum FeatureGate : Swift.String {
   case globalRollout
   case screenRecordingProtection
   case badging
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -30,7 +33,9 @@ extension FeltEmbeddedCare.EmbeddedCare {
   public func checkFeatureGate(_ featureGate: FeltEmbeddedCare.FeatureGate) -> Swift.Bool
   public func checkFeatureGate(name: Swift.String) -> Swift.Bool
   public func getExperiment(_ name: Swift.String) -> [Swift.String : Any]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func logEvent(name: Swift.String, value: Swift.String? = nil, metadata: [Swift.String : Swift.String]? = nil)
+  #endif
 }
 @objc @_hasMissingDesignatedInitializers public class NotificationManager : ObjectiveC.NSObject {
   public func configure(with appDelegate: any UIKit.UIApplicationDelegate, embeddedCare: FeltEmbeddedCare.EmbeddedCare)
@@ -39,13 +44,17 @@ extension FeltEmbeddedCare.EmbeddedCare {
 extension FeltEmbeddedCare.NotificationManager : UserNotifications.UNUserNotificationCenterDelegate {
   @objc nonisolated dynamic public func userNotificationCenter(_: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc nonisolated dynamic public func userNotificationCenter(_: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc nonisolated dynamic public func userNotificationCenter(_: UserNotifications.UNUserNotificationCenter, openSettingsFor _: UserNotifications.UNNotification?)
+  #endif
 }
 public struct BadgeStatus : Swift.Codable, Swift.Equatable, Swift.Sendable {
   public let count: Swift.Int
   public let type: Swift.String
   public let timestamp: Foundation.Date?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(count: Swift.Int, type: Swift.String = "simple", timestamp: Foundation.Date? = nil)
+  #endif
   public static func == (a: FeltEmbeddedCare.BadgeStatus, b: FeltEmbeddedCare.BadgeStatus) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -54,7 +63,9 @@ extension FeltEmbeddedCare.BadgeStatus {
   public var isVisible: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func displayText(maxCount: Swift.Int = 99) -> Swift.String?
+  #endif
   public var priority: FeltEmbeddedCare.BadgePriority {
     get
   }
@@ -65,7 +76,9 @@ public enum BadgePriority : Swift.Int, Swift.CaseIterable, Swift.Comparable {
   case alert
   case urgent
   public static func < (lhs: FeltEmbeddedCare.BadgePriority, rhs: FeltEmbeddedCare.BadgePriority) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [FeltEmbeddedCare.BadgePriority]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [FeltEmbeddedCare.BadgePriority] {
@@ -116,6 +129,7 @@ public enum BadgePriority : Swift.Int, Swift.CaseIterable, Swift.Comparable {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @Combine.Published @_projectedValueProperty($displayText) @_Concurrency.MainActor public var displayText: Swift.String? {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -123,16 +137,21 @@ public enum BadgePriority : Swift.Int, Swift.CaseIterable, Swift.Comparable {
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public var $displayText: Combine.Published<Swift.String?>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  #endif
   public struct Configuration {
     public let maxCount: Swift.Int
     public let showZeroAsBadge: Swift.Bool
     public let customFormatter: ((Swift.Int, Swift.String) -> Swift.String?)?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(maxCount: Swift.Int = 99, showZeroAsBadge: Swift.Bool = false, customFormatter: ((Swift.Int, Swift.String) -> Swift.String?)? = nil)
+    #endif
     public static let `default`: FeltEmbeddedCare.EmbeddedCareBadgeState.Configuration
   }
   @_Concurrency.MainActor public init(configuration: FeltEmbeddedCare.EmbeddedCareBadgeState.Configuration = .default)
@@ -175,10 +194,12 @@ extension SwiftUICore.View {
 }
 @available(iOS 15.0, *)
 extension SwiftUICore.EnvironmentValues {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var embeddedCareBadgeState: FeltEmbeddedCare.EmbeddedCareBadgeState? {
     get
     set
   }
+  #endif
 }
 @available(iOS 15.0, *)
 extension SwiftUICore.View {
@@ -186,6 +207,7 @@ extension SwiftUICore.View {
   
 }
 @_Concurrency.MainActor public class TabBadgeManager : Combine.ObservableObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @Combine.Published @_projectedValueProperty($badgeText) @_Concurrency.MainActor public var badgeText: Swift.String? {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -193,11 +215,14 @@ extension SwiftUICore.View {
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
     _modify
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public var $badgeText: Combine.Published<Swift.String?>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  #endif
   @Combine.Published @_projectedValueProperty($shouldShowBadge) @_Concurrency.MainActor public var shouldShowBadge: Swift.Bool {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -215,7 +240,9 @@ extension SwiftUICore.View {
     public let maxDisplayCount: Swift.Int
     public let emptyBadgeValue: Swift.String?
     public let customFormatter: ((Swift.Int, Swift.String) -> Swift.String)?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(showOnlyCount: Swift.Bool = false, maxDisplayCount: Swift.Int = 99, emptyBadgeValue: Swift.String? = nil, customFormatter: ((Swift.Int, Swift.String) -> Swift.String)? = nil)
+    #endif
     public static let `default`: FeltEmbeddedCare.TabBadgeManager.Configuration
   }
   @_Concurrency.MainActor public init(configuration: FeltEmbeddedCare.TabBadgeManager.Configuration = .default)
@@ -252,9 +279,11 @@ extension FeltEmbeddedCare.EmbeddedCare {
     case invalidSDKKey
     case badRequest
     case accountNotSet
+    #if compiler(>=5.3) && $NonescapableTypes
     public var errorDescription: Swift.String? {
       get
     }
+    #endif
     public static func == (a: FeltEmbeddedCare.EmbeddedCare.Error, b: FeltEmbeddedCare.EmbeddedCare.Error) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -282,12 +311,16 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatab
   case timeout
   case cancelled
   case unknown(Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var recoverySuggestion: Swift.String? {
     get
   }
+  #endif
   public static func == (a: FeltEmbeddedCare.NetworkError, b: FeltEmbeddedCare.NetworkError) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers public class ExperiencePresentationManager {
@@ -328,8 +361,12 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatab
   @_Concurrency.MainActor public func enableDynamicTabBarVisibility(for tabBarController: UIKit.UITabBarController)
   @_Concurrency.MainActor public func enableAutomaticTabBarVisibility(in appDelegate: any UIKit.UIApplicationDelegate)
   @_Concurrency.MainActor public func disableAutomaticTabBarVisibility()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func discoverTabBarController() -> UIKit.UITabBarController?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func discoverTabBarController(from viewController: UIKit.UIViewController) -> UIKit.UITabBarController?
+  #endif
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -337,7 +374,9 @@ public enum TabBarVisibilityContext : Swift.String {
   case `default`
   case fullscreenExperience
   case webApp
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -348,7 +387,9 @@ public enum TabBarVisibilityPriority : Swift.Int, Swift.CaseIterable {
   case normal
   case high
   case critical
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [FeltEmbeddedCare.TabBarVisibilityPriority]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [FeltEmbeddedCare.TabBarVisibilityPriority] {
@@ -381,7 +422,9 @@ public struct Account : Swift.Codable, Swift.Sendable, Swift.Equatable {
   public var selectedPatient: FeltEmbeddedCare.Patient?
   public var coveredPersons: [FeltEmbeddedCare.Patient]?
   public var custom: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String, firstName: Swift.String? = nil, lastName: Swift.String? = nil, email: Swift.String? = nil, birthDate: Foundation.Date? = nil, selectedPatient: FeltEmbeddedCare.Patient? = nil, coveredPersons: [FeltEmbeddedCare.Patient]? = nil, custom: [Swift.String : Swift.String]? = [:])
+  #endif
   public static func == (a: FeltEmbeddedCare.Account, b: FeltEmbeddedCare.Account) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -414,7 +457,9 @@ public class CooldownCalculator {
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct Component : SwiftUI.UIViewRepresentable {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(experience: FeltEmbeddedCare.ComponentExperience, custom: [Swift.String : Swift.String], loadingFill: UIKit.UIColor? = nil, loadingBackground: UIKit.UIColor? = nil, onHeightUpdated: ((CoreFoundation.CGFloat?) -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FeltEmbeddedCare.Component.Context) -> FeltEmbeddedCare.ComponentView
   @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FeltEmbeddedCare.ComponentView, context _: FeltEmbeddedCare.Component.Context)
   public typealias Body = Swift.Never
@@ -476,19 +521,27 @@ public class CooldownCalculator {
   public func addStateChangeHandler(_ handler: @escaping (FeltEmbeddedCare.PushNotificationPermissionManager.PermissionState) -> Swift.Void) -> Foundation.UUID
   public func removeStateChangeHandler(_ token: Foundation.UUID)
   public func getMessage(for timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getActionTitle() -> Swift.String?
+  #endif
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
 @available(iOS 13.0, *)
 extension SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func pushNotificationPermissions(using permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .onAppLaunch, showOnLaunch: Swift.Bool = false, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil) -> some SwiftUICore.View
   
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func pushNotificationPermissionSheet(isPresented: SwiftUICore.Binding<Swift.Bool>, permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .userInitiated, onDismiss: (() -> Swift.Void)? = nil, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil) -> some SwiftUICore.View
   
+  #endif
 }
 
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class PushNotificationPermissionViewController : UIKit.UIViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public init(permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .userInitiated, onDismiss: (() -> Swift.Void)? = nil, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil)
+  #endif
   @objc deinit
   @_Concurrency.MainActor @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
@@ -504,7 +557,9 @@ extension SwiftUICore.View {
 public struct DismissState {
   public let dismissCount: Swift.Int
   public let lastDismissDate: Foundation.Date?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(dismissCount: Swift.Int = 0, lastDismissDate: Foundation.Date? = nil)
+  #endif
   public func incremented(max: Swift.Int = 3) -> FeltEmbeddedCare.DismissState
 }
 public class DismissStateManager {
@@ -519,7 +574,9 @@ public protocol DismissStateStorage {
 }
 @available(iOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public struct PushNotificationPermissionView : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(permissionManager: FeltEmbeddedCare.PushNotificationPermissionManager, timing: FeltEmbeddedCare.PushNotificationPermissionManager.RequestTiming = .userInitiated, showDismissButton: Swift.Bool = true, onDismiss: (() -> Swift.Void)? = nil, onPermissionGranted: (() -> Swift.Void)? = nil, onPermissionDenied: (() -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -575,12 +632,16 @@ public enum BadgePollingError : Swift.Error, Foundation.LocalizedError {
   case configurationMissing
   case networkError(FeltEmbeddedCare.NetworkError)
   case pollingDisabled
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var recoverySuggestion: Swift.String? {
     get
   }
+  #endif
 }
 extension UIKit.UITabBarItem {
   @_Concurrency.MainActor @preconcurrency public func setBadgeFromEmbeddedCare()
@@ -590,7 +651,9 @@ extension UIKit.UITabBarItem {
 public struct Patient : Swift.Codable, Swift.Sendable, Swift.Equatable {
   public enum Gender : Swift.String, Swift.Codable, Swift.Sendable {
     case male, female, other, unknown
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -598,7 +661,9 @@ public struct Patient : Swift.Codable, Swift.Sendable, Swift.Equatable {
   }
   public enum GenderIdentity : Swift.String, Swift.Codable, Swift.Sendable {
     case male, female, transgender, nonBinary, other, unknown
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -608,7 +673,9 @@ public struct Patient : Swift.Codable, Swift.Sendable, Swift.Equatable {
     case `self`
     case familyMember
     case other
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -625,7 +692,9 @@ public struct Patient : Swift.Codable, Swift.Sendable, Swift.Equatable {
   public var birthDate: Foundation.Date?
   public var preferredLanguage: Swift.String?
   public var custom: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String, relationshipToAccountHolder: FeltEmbeddedCare.Patient.RelationshipToAccountHolder = .self, firstName: Swift.String? = nil, lastName: Swift.String? = nil, gender: FeltEmbeddedCare.Patient.Gender? = nil, genderIdentity: FeltEmbeddedCare.Patient.GenderIdentity? = nil, phone: Swift.String? = nil, email: Swift.String? = nil, birthDate: Foundation.Date? = nil, preferredLanguage: Swift.String? = nil, custom: [Swift.String : Swift.String]? = [:])
+  #endif
   public static func == (a: FeltEmbeddedCare.Patient, b: FeltEmbeddedCare.Patient) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -637,7 +706,9 @@ public enum ComponentExperience : Swift.String {
   case triagedCallToAction
   case dismissableCallToAction
   case infoCard
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -669,7 +740,9 @@ public struct FullScreenPresentationContext {
     case overlay
     case home
     case transparentFullScreen
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -678,7 +751,9 @@ public struct FullScreenPresentationContext {
   public var suggestedPresentationMethod: FeltEmbeddedCare.FullScreenPresentationContext.PresentationMethod
 }
 @_hasMissingDesignatedInitializers public class WebBridgeEventHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func handleTabBarVisibilityEvent(message: Any?)
+  #endif
   @objc deinit
 }
 public struct TermsAcceptanceEvent {
@@ -713,10 +788,12 @@ public struct TermsAcceptanceEvent {
     get
   }
   public class func initialize(sdkKey: Swift.String) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public var fullScreenExperiencePresentationHandler: ((FeltEmbeddedCare.FullScreenPresentationContext) -> Swift.Void)? {
     get
     set
   }
+  #endif
   public var deeplinkBlockedHandler: ((Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor public func handleURL(_ url: Foundation.URL) -> Swift.Bool
   @_Concurrency.MainActor public func handleNotification(_ notification: UserNotifications.UNNotification) -> Swift.Bool

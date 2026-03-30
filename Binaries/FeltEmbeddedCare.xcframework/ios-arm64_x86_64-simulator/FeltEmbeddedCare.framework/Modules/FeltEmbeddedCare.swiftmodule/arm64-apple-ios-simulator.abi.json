@@ -3022,6 +3022,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14912,6 +14919,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -15136,6 +15150,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -16237,6 +16258,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -19587,6 +19615,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -21811,6 +21846,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "BridgeEventHandler",
             "printedName": "BridgeEventHandler",
             "usr": "s:16FeltEmbeddedCare18BridgeEventHandlerP",
@@ -23188,6 +23230,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -23386,6 +23435,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -24099,6 +24155,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -26378,6 +26441,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -27271,6 +27341,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -31138,6 +31215,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -33967,6 +34051,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -34593,6 +34684,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -34975,6 +35073,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -35255,6 +35360,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -36784,6 +36896,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -39659,6 +39778,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -41261,6 +41387,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CAPBridgeDelegate",
             "printedName": "CAPBridgeDelegate",
             "usr": "s:9Capacitor17CAPBridgeDelegateP",
@@ -42473,6 +42606,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -43138,6 +43278,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -44672,6 +44819,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -44904,6 +45058,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -47803,6 +47964,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           }
@@ -49493,6 +49661,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -49691,6 +49866,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -50313,6 +50495,7 @@
         "declAttributes": [
           "Preconcurrency",
           "TypeEraser",
+          "TypeEraser",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
@@ -50510,6 +50693,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -50674,6 +50864,13 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -50998,1372 +51195,1372 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 16,
       "value": "\"global_rollout\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 29,
       "value": "\"screen_recording_protection\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 1135,
       "length": 18,
       "value": "\"com.felt.statsig\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 7536,
       "length": 15,
       "value": "\"app_lifecycle\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 7589,
       "length": 12,
       "value": "\"impression\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/BusinessOptimization.swift",
       "kind": "StringLiteral",
       "offset": 7645,
       "length": 19,
       "value": "\"entrypoint_viewed\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/NotificationManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/NotificationManager.swift",
       "kind": "StringLiteral",
       "offset": 3258,
       "length": 26,
       "value": "\"EmbeddedCare.DeviceToken\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 660,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1283,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1304,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1323,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/BadgeStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1343,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/Logger+Extension.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/Logger+Extension.swift",
       "kind": "BooleanLiteral",
       "offset": 394,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
       "kind": "BooleanLiteral",
       "offset": 758,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/AutomaticTabBarVisibility.swift",
       "kind": "IntegerLiteral",
       "offset": 4941,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "IntegerLiteral",
       "offset": 959,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 1176,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "IntegerLiteral",
       "offset": 1605,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/SwiftUIBadgeIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 1645,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "FloatLiteral",
       "offset": 1140,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "IntegerLiteral",
       "offset": 1180,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1223,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1262,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1308,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1676,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1750,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 1776,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "Array",
       "offset": 1885,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "IntegerLiteral",
       "offset": 1980,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "BooleanLiteral",
       "offset": 2010,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/AutomaticTabBadging.swift",
       "kind": "IntegerLiteral",
       "offset": 12097,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 327,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 529,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/DelegationHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 569,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1096,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1447,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1489,
       "length": 2,
       "value": "99"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/TabBadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2068,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 1465,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 1487,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 1622,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 1650,
       "length": 21,
       "value": "\"https:\/\/example.com\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkService.swift",
       "kind": "StringLiteral",
       "offset": 2035,
       "length": 21,
       "value": "\"https:\/\/example.com\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 97,
       "value": "\"https:\/\/5122eab82c0b653cada7e9716b0dc19b@o4509452247171072.ingest.us.sentry.io\/4509471881691136\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/SentryManager.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
       "kind": "Array",
       "offset": 1480,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/URLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 2851,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "Dictionary",
       "offset": 357,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "FloatLiteral",
       "offset": 429,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2725,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2747,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2769,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2793,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/NetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 2819,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 2352,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 2387,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "StringLiteral",
       "offset": 2573,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "FloatLiteral",
       "offset": 5359,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "IntegerLiteral",
       "offset": 5388,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Network\/BadgeNetworkService.swift",
       "kind": "FloatLiteral",
       "offset": 5411,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
       "offset": 3770,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
       "offset": 4595,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
       "offset": 5138,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "BooleanLiteral",
       "offset": 293,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "Dictionary",
       "offset": 697,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "StringLiteral",
       "offset": 6368,
       "length": 9,
       "value": "\"default\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "StringLiteral",
       "offset": 6410,
       "length": 23,
       "value": "\"fullscreen_experience\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "StringLiteral",
       "offset": 6452,
       "length": 8,
       "value": "\"webapp\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
       "offset": 6537,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
       "offset": 6557,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
       "offset": 6575,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
       "offset": 6598,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "StringLiteral",
       "offset": 7114,
       "length": 25,
       "value": "\"TabBarVisibilityChanged\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Tab Bar Management\/TabBarVisibilityManager.swift",
       "kind": "IntegerLiteral",
       "offset": 7228,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Account.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Account.swift",
       "kind": "Dictionary",
       "offset": 1323,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
       "kind": "Dictionary",
       "offset": 353,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/ContextLifecycle.swift",
       "kind": "Dictionary",
       "offset": 3574,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 33,
       "value": "\"dismissible_cta_cooldown_config\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
       "kind": "Array",
       "offset": 355,
       "length": 19,
       "value": "[4320, 7200, 43200]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/CooldownCalculator.swift",
       "kind": "IntegerLiteral",
       "offset": 430,
       "length": 6,
       "value": "525600"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4136,
       "length": 26,
       "value": "\"Component height changed\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4194,
       "length": 11,
       "value": "\"component\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4234,
       "length": 7,
       "value": "\"route\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
       "offset": 4261,
       "length": 8,
       "value": "\"height\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "IntegerLiteral",
       "offset": 4288,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "StringLiteral",
       "offset": 1124,
       "length": 15,
       "value": "\"startingRoute\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2073,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7967,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7969,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7981,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7984,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7995,
       "length": 2,
       "value": "43"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 7998,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 8010,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1350,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2286,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "Dictionary",
       "offset": 2433,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2527,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 12682,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 1099,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 3668,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 3716,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "StringLiteral",
       "offset": 5306,
       "length": 13,
       "value": "\"App Content\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "StringLiteral",
       "offset": 5336,
       "length": 23,
       "value": "\"Request Notifications\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/SwiftUIPushNotificationIntegration.swift",
       "kind": "BooleanLiteral",
       "offset": 5576,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 615,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 790,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 981,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1248,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1295,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1386,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1557,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1604,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1718,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1906,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2062,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2119,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2400,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "StringLiteral",
       "offset": 2430,
       "length": 9,
       "value": "\"Dismiss\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2569,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2894,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2970,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "BooleanLiteral",
       "offset": 745,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 102,
       "value": "\"Unable to perform account status network call with accountId:\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 911,
       "length": 3,
       "value": "\" and webAppURL:\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "BooleanLiteral",
       "offset": 977,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 26,
       "value": "\"Account setter triggered\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 9,
       "value": "\"account\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1659,
       "length": 46,
       "value": "\"Identical account set - skipping update work\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 25,
       "value": "\"Account change detected\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/AuthManager.swift",
       "kind": "StringLiteral",
       "offset": 1817,
       "length": 9,
       "value": "\"account\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissState.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissStateManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Dismiss Management\/DismissStateManager.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
       "kind": "BooleanLiteral",
       "offset": 530,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
       "kind": "BooleanLiteral",
       "offset": 736,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Push Notification Management\/PushNotificationPermissionView.swift",
       "kind": "BooleanLiteral",
       "offset": 5882,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 393,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 588,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "Dictionary",
       "offset": 776,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 1964,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 9391,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgeManager.swift",
       "kind": "StringLiteral",
       "offset": 10536,
       "length": 8,
       "value": "\"simple\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 881,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 913,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 946,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 978,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "BooleanLiteral",
       "offset": 1002,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 1075,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 1113,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 1155,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "FloatLiteral",
       "offset": 1202,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "BooleanLiteral",
       "offset": 1233,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/BadgePollingService.swift",
       "kind": "IntegerLiteral",
       "offset": 2260,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
       "kind": "StringLiteral",
       "offset": 708,
       "length": 26,
       "value": "\"\/api\/visit\/status\/stream\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
       "kind": "FloatLiteral",
       "offset": 791,
       "length": 4,
       "value": "60.0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Badge Integration\/UI\/BadgeStatusSourceFactory.swift",
       "kind": "Dictionary",
       "offset": 815,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 36,
       "value": "\"com.feltclinic.FeltEmbeddedCareKit\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 18,
       "value": "\"FeltEmbeddedCare\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 3386,
       "length": 66,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 3417,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Utilities\/Logger\/FeltLogger.swift",
       "kind": "StringLiteral",
       "offset": 3451,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 157,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
       "kind": "StringLiteral",
       "offset": 1585,
       "length": 8,
       "value": "\"Medium\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/SkeletonLoader.swift",
       "kind": "StringLiteral",
       "offset": 1662,
       "length": 7,
       "value": "\"Large\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Patient.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Patient.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 12,
       "value": "\"non-binary\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Patient.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Models\/Patient.swift",
       "kind": "Dictionary",
       "offset": 2048,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 14,
       "value": "\"\/triaged-cta\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 18,
       "value": "\"\/dismissable-cta\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 12,
       "value": "\"\/info-card\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
       "offset": 1739,
       "length": 7,
       "value": "\"\/home\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
       "offset": 1869,
       "length": 14,
       "value": "\"\/value-props\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
       "offset": 1973,
       "length": 10,
       "value": "\"\/pricing\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Experience.swift",
       "kind": "StringLiteral",
       "offset": 3342,
       "length": 25,
       "value": "\"transparent-full-screen\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/File Downloader\/FileDownloadManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/File Downloader\/FileDownloadManager.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 11,
       "value": "\"Downloads\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "BooleanLiteral",
       "offset": 459,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "BooleanLiteral",
       "offset": 1094,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Webview\/WebView.swift",
       "kind": "IntegerLiteral",
       "offset": 6572,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Routes.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Routes.swift",
       "kind": "Array",
       "offset": 311,
       "length": 92,
       "value": "[\"\/home\", \"\/chat-return\", \"\/value-props\", \"\/pricing\"]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Hotswap\/HotswapRootViewController.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Hotswap\/HotswapRootViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "Dictionary",
       "offset": 1074,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "Dictionary",
       "offset": 1202,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "Array",
       "offset": 1318,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "IntegerLiteral",
       "offset": 1506,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Account Status\/AccountStatusQueue.swift",
       "kind": "IntegerLiteral",
       "offset": 1567,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
       "offset": 6857,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
       "offset": 6909,
       "length": 13,
       "value": "\"felt-method\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 8,
       "value": "\"PubSub\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 9,
       "value": "\"Portals\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/PubSub\/PubSub.swift",
       "kind": "StringLiteral",
       "offset": 806,
       "length": 15,
       "value": "\"publishNative\""
     },
     {
-      "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/EmbeddedCareStateManager.swift",
+      "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/EmbeddedCareStateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 257,
       "length": 5,
