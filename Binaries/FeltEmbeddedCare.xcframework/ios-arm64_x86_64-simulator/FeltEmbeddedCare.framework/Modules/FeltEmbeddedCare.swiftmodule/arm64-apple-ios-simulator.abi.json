@@ -16007,6 +16007,28 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restoreWarmTabBar",
+            "printedName": "restoreWarmTabBar()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FeltEmbeddedCare29ExperiencePresentationManagerC17restoreWarmTabBaryyF",
+            "mangledName": "$s16FeltEmbeddedCare29ExperiencePresentationManagerC17restoreWarmTabBaryyF",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -51638,14 +51660,14 @@
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4595,
+      "offset": 4800,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/felt-embedded-care-ios-source\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/Managers\/ExperiencePresentationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5138,
+      "offset": 5343,
       "length": 2,
       "value": "\"\""
     },

@@ -329,6 +329,7 @@ public enum NetworkError : Swift.Error, Foundation.LocalizedError, Swift.Equatab
   @_Concurrency.MainActor public func presentOverlay(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
   @_Concurrency.MainActor public func presentTransparentFullScreen(_ experience: FeltEmbeddedCare.FullScreenExperience, source: Swift.String = "")
   @_Concurrency.MainActor public func dismissWarmPresentation()
+  @_Concurrency.MainActor public func restoreWarmTabBar()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TransparentFullScreenViewController : FeltEmbeddedCare.FullScreenViewController {
