@@ -692,6 +692,7 @@ public struct TermsAcceptanceEvent {
   final public let notifications: FeltEmbeddedCare.NotificationManager
   final public let router: FeltEmbeddedCare.WebBridgeEventHandler
   @_Concurrency.MainActor final public let tabBarManager: FeltEmbeddedCare.TabBarVisibilityManager
+  public var stableIdPrefix: Swift.String?
   public var isInitialized: Swift.Bool {
     get
   }
@@ -701,6 +702,8 @@ public struct TermsAcceptanceEvent {
     set
   }
   public var deeplinkBlockedHandler: ((Swift.String) -> Swift.Void)?
+  @discardableResult
+  @_Concurrency.MainActor public class func handleURL(_ url: Foundation.URL) -> Swift.Bool
   @_Concurrency.MainActor public func handleURL(_ url: Foundation.URL) -> Swift.Bool
   @_Concurrency.MainActor public func handleNotification(_ notification: UserNotifications.UNNotification) -> Swift.Bool
   @_Concurrency.MainActor public func processStoredDeeplinks()
