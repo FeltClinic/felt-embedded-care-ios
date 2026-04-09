@@ -701,6 +701,7 @@ public struct TermsAcceptanceEvent {
     get
     set
   }
+  public var fullScreenExperienceDismissHandler: (() -> Swift.Void)?
   public var deeplinkBlockedHandler: ((Swift.String) -> Swift.Void)?
   @discardableResult
   @_Concurrency.MainActor public class func handleURL(_ url: Foundation.URL) -> Swift.Bool

@@ -44465,6 +44465,153 @@
           },
           {
             "kind": "Var",
+            "name": "fullScreenExperienceDismissHandler",
+            "printedName": "fullScreenExperienceDismissHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvp",
+            "mangledName": "$s16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvp",
+            "moduleName": "FeltEmbeddedCare",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvg",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvg",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvs",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvs",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvM",
+                "mangledName": "$s16FeltEmbeddedCare0bC0C34fullScreenExperienceDismissHandleryycSgvM",
+                "moduleName": "FeltEmbeddedCare",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "deeplinkBlockedHandler",
             "printedName": "deeplinkBlockedHandler",
             "children": [
@@ -49378,63 +49525,63 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1124,
       "length": 15,
       "value": "\"startingRoute\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2112,
+      "offset": 2073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7777,
+      "offset": 7738,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7779,
+      "offset": 7740,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7791,
+      "offset": 7752,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7794,
+      "offset": 7755,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7805,
+      "offset": 7766,
       "length": 2,
       "value": "43"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7808,
+      "offset": 7769,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/Features\/Full Screen\/FullScreenViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7820,
+      "offset": 7781,
       "length": 1,
       "value": "1"
     },
@@ -50085,14 +50232,14 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 6694,
+      "offset": 6760,
       "length": 12,
       "value": "\"felt-route\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/EmbeddedCare\/EmbeddedCare.swift",
       "kind": "StringLiteral",
-      "offset": 6746,
+      "offset": 6812,
       "length": 13,
       "value": "\"felt-method\""
     },
