@@ -49400,35 +49400,35 @@
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 5550,
+      "offset": 4136,
       "length": 26,
       "value": "\"Component height changed\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 5608,
+      "offset": 4194,
       "length": 11,
       "value": "\"component\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 5648,
+      "offset": 4234,
       "length": 7,
       "value": "\"route\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "StringLiteral",
-      "offset": 5675,
+      "offset": 4261,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/gianmarcosalerno\/Repos\/felt-embedded-care-ios-source\/FeltEmbeddedCare\/ComponentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5702,
+      "offset": 4288,
       "length": 2,
       "value": "-1"
     },
