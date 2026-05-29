@@ -2,6 +2,8 @@
 
 import PackageDescription
 
+let releaseBase = "https://github.com/FeltClinic/felt-embedded-care-ios/releases/download/v1.19.0"
+
 let package = Package(
     name: "FeltEmbeddedCare",
     platforms: [.iOS(.v15)],
@@ -11,15 +13,25 @@ let package = Package(
             targets: ["FeltEmbeddedCare", "FeltDependencies"]
         ),
     ],
-    dependencies: [
-    ],
     targets: [
-        .binaryTarget(name: "FeltEmbeddedCare", path: "Binaries/FeltEmbeddedCare.xcframework"),
-        .binaryTarget(name: "Capacitor", path: "Binaries/Capacitor.xcframework"),
-        .binaryTarget(name: "Cordova", path: "Binaries/Cordova.xcframework"),
-        .target(name: "FeltDependencies", dependencies: [
-            "Capacitor",
-            "Cordova"
-        ])
+        .binaryTarget(
+            name: "FeltEmbeddedCare",
+            url: "\(releaseBase)/FeltEmbeddedCare.xcframework.zip",
+            checksum: ""
+        ),
+        .binaryTarget(
+            name: "Capacitor",
+            url: "\(releaseBase)/Capacitor.xcframework.zip",
+            checksum: ""
+        ),
+        .binaryTarget(
+            name: "Cordova",
+            url: "\(releaseBase)/Cordova.xcframework.zip",
+            checksum: ""
+        ),
+        .target(
+            name: "FeltDependencies",
+            dependencies: ["Capacitor", "Cordova"]
+        ),
     ]
 )
