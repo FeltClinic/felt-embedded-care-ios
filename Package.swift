@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let releaseBase = "https://github.com/FeltClinic/felt-embedded-care-ios/releases/download/v1.19.2"
+let releaseBase = "https://github.com/FeltClinic/felt-embedded-care-ios/releases/download/v1.20.0"
 
 let package = Package(
     name: "FeltEmbeddedCare",
@@ -17,17 +17,17 @@ let package = Package(
         .binaryTarget(
             name: "FeltEmbeddedCare",
             url: "\(releaseBase)/FeltEmbeddedCare.xcframework.zip",
-            checksum: "fe46f96af985613926451c83c7fbc988b605f465d28c481d49e6182c828f5e49"
+            checksum: "5c0313ac05df882d41c6e3a8d4cfa92a805bf7e4af7b416c81b1d61acdb39558"
         ),
         .binaryTarget(
             name: "Capacitor",
             url: "\(releaseBase)/Capacitor.xcframework.zip",
-            checksum: "76ff13db4a252ee261976449317d9a9e0e73c03cb36b4ff8c05520922cb9a733"
+            checksum: "93c62be517141e02941dbbe64b8acb92f74dbafbfc56dbd1214c285a3e1dba7b"
         ),
         .binaryTarget(
             name: "Cordova",
             url: "\(releaseBase)/Cordova.xcframework.zip",
-            checksum: "e46e6290ea039c69301c132efae163d709e0e45e712c57059a9d63a6060099e4"
+            checksum: "97050b63d0005aef46106d4c4d01d737c45c02d0fd50352afe9c8254cbc5e83f"
         ),
         .target(
             name: "FeltDependencies",
